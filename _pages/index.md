@@ -20,7 +20,7 @@ projects_row1:
     excerpt: "The classifier predicts a movie box-office revenue"
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "/_projects/Classification_project.html"
+    url: _projects/Classification_project.html
 <!--     github_url: "https://github.com/elliott-king/resume-compare" -->
   - image_path: assets/images/project-screenshots/bill-tracker.png
     alt: "Bill Tracker Screenshot"
