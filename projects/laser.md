@@ -1,3 +1,12 @@
+---
+layout: single
+title: "An Introduction to Multithreading"
+date: 2020-03-25 09:00:00 -0000
+categories: concurrency ruby introductory
+excerpt: An introduction to the idea of multithreading. First we will talk about reasons for concurrency, then we will give examples.
+---
+
+
 # Solidification process of sintered powder Aluminum-based alloys
 #### Marine Additive Manufacturing Centre of Excellence, University of New Brunswick February 2018 - August 2021
 
