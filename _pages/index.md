@@ -74,4 +74,3 @@ Reach out on [LinkedIn](https://www.linkedin.com/in/elliottwking/) or just [emai
 ## Projects
 {% include project_row id="projects_row1" %}
 {% include project_row id="projects_row2" %}
-{% include project_row id="projects_row3" %}
