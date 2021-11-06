@@ -9,7 +9,7 @@ permalink: /
 
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/pexels-manuel-geissinger-325229.jpg # gradient.png
+  overlay_image: assets/images/pexels-manuel-geissinger-325229.jpg
   caption: "Photo by Manuel Geissinger from Pexels"
 excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
 
