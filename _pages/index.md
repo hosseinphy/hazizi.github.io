@@ -59,15 +59,6 @@ projects_row2:
     url: "/projects/laser"
     github_url: "https://github.com/elliott-king/drawful-1.5"
 
-projects_row3:
-  - image_path: assets/images/project-screenshots/kanye.png
-    alt: "Screenshot of r/kanye analyzer"
-    title: "R/Kanye Comment Analyzer"
-    excerpt: "Use natural language processing to learn who is 'wavy' - according to [reddit.com/r/kanye](https://www.reddit.com/r/kanye)."
-    btn_label: "Visit"
-    btn_class: "btn--primary"
-    url: "https://realtime.cannibaltaylor.com/"
-    github_url: "https://github.com/elliott-king/kanye_analyzer"
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
