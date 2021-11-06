@@ -1,28 +1,3 @@
-<!-- ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-description: I am a developer in New York City. I have experience all across the board, from Ruby/Rails and React, to some machine learning.
-layout: splash
-# author_profile: true
-permalink: /
-
-header:
-  overlay_color: "#000"
-  overlay_image: assets/images/pexels-manuel-geissinger-325229.jpg
-  caption: "Photo by Manuel Geissinger from Pexels"
-excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
- -->
-<!-- projects_row1: -->
-<!--   - image_path: assets/images/pexels-tima-miroshnichenko-7991579.png
-    alt: "Box Office Revenue Predictor"
-    title: "Box Office Revenue Prediction"
-    excerpt: "The classifier predicts a movie box-office revenue"
-    btn_label: "Visit"
-    btn_class: "btn--primary"
-    url: _projects/Classification_project.html -->
-<!--     github_url: "https://github.com/elliott-king/resume-compare" -->
-
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
