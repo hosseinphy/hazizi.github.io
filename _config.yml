@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.21.0"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -93,30 +93,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Elliott King"
+  name             : "Hossein Azizi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : >- 
     React, Python, NodeJS, Rails. Writing technical blogs is much easier than writing about
     my personality, but I will do my best. I hope I don't run out of space for my bio. When I was
     ten, I defeated Bill Ga
-  location         : "New York City"
-  email            : "elliottking93@gmail.com"
+  location         : "Montreal"
+  email            : "hosseinphy@gmail.com"
   links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "elliottking93@gmail.com"
-    - label: "send_bitcoin"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/send_bitcoin"
-    - label: "elliott-king"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/elliott-king"
-    - label: "eking-30347"
-      icon: "fab fa-medium"
-      url: "https://eking-30347.medium.com/"
-    - label: "elliottwking"
+#     - label: "send_bitcoin"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/send_bitcoin"
+#     - label: "elliott-king"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/elliott-king"
+#     - label: "eking-30347"
+#       icon: "fab fa-medium"
+#       url: "https://eking-30347.medium.com/"
+    - label: "Linkedin"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/elliottwking/"
+      url: "https://www.linkedin.com/in/hossein-azizi/"
 
 # Site Footer
 footer:
@@ -124,18 +124,18 @@ footer:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "maielliottking93@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/send_bitcoin"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/elliott-king"
-    - label: "Medium"
-      icon: "fab fa-medium"
-      url: "https://eking-30347.medium.com/"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/send_bitcoin"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/elliott-king"
+#     - label: "Medium"
+#       icon: "fab fa-medium"
+#       url: "https://eking-30347.medium.com/"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/elliottwking/"
+      url: "https://www.linkedin.com/in/hossein-azizi/"
 
 
 # Reading Files
