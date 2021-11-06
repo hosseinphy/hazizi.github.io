@@ -14,13 +14,13 @@ header:
 excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
 
 projects_row1:
-  - image_path: assets/images/pexels-tima-miroshnichenko-7991579.png
+<!--   - image_path: assets/images/pexels-tima-miroshnichenko-7991579.png
     alt: "Box Office Revenue Predictor"
     title: "Box Office Revenue Prediction"
     excerpt: "The classifier predicts a movie box-office revenue"
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: _projects/Classification_project.html
+    url: _projects/Classification_project.html -->
 <!--     github_url: "https://github.com/elliott-king/resume-compare" -->
   - image_path: assets/images/project-screenshots/bill-tracker.png
     alt: "Bill Tracker Screenshot"
