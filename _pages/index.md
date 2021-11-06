@@ -35,28 +35,28 @@ projects_row1:
 
 projects_row2:
   - image_path: assets/images/project-screenshots/creepy-tracker.png
-    alt: "Screenshot of Creepy Tracker"
-    title: "Creepy Tracker"
-    excerpt: "A website that builds a simple fingerprint for your browser. If you are interested in browser fingerprinting, I also wrote an [introduction](https://elliott-king.github.io/2020/05/fingerprinting-i/)."
+    alt: "Pattern formation in Reaction-Diffusion systems"
+    title: "Pattern formation in Reaction-Diffusion systems"
+    excerpt: "Simulations of pattern formation in Chemicla/biological complex system."
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "https://creepy-tracker.herokuapp.com/"
+    url: "/projects/phds"
     github_url: "https://github.com/elliott-king/freedom-js-app"
   - image_path: assets/images/project-screenshots/freedom.png
-    alt: "Freedom JS"
-    title: "Freedom"
-    excerpt: "An app for nearby free events."
+    alt: "Simulation of heat & mass transfer in porous materials"
+    title: "Simulation of heat & mass transfer in porous materials"
+    excerpt: "Simulation of heat-mass transfer process to assist in design new porous materials, with potential use in energy-efficient products."
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "https://www.freedom.cannibaltaylor.com/"
+    url: "/projects/stoch_combustion"
     github_url: "https://github.com/elliott-king/creepy-tracker"
   - image_path: assets/images/project-screenshots/drawful.png
-    alt: "Drawful 1.5"
-    title: "Drawful 1.5"
-    excerpt: "A fun little clone of Drawful. You can play with up to six players."
+    alt: "Modeling solidification during metal additive manufacturing"
+    title: "Modeling solidification during metal additive manufacturing"
+    excerpt: "Simulation of solidification process of sintered powder Aluminum-based alloys."
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "https://elliott-king.github.io/drawful-1.5/frontend/"
+    url: "/projects/laser"
     github_url: "https://github.com/elliott-king/drawful-1.5"
 
 projects_row3:
