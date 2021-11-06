@@ -11,14 +11,16 @@
 
 ### Stochastic Cellular Patterns
 <p align="center">
-<img src="/images/stock_combust_anim.gif" width="680px">
+<img src="/assets/images/project-screenshots/stock_combust_anim.gif" width="680px">
 </p>
+
+
 
 <br clear="down"/>
 
 ### Power Spectrum Density
 <p align="center">
-<img src="/images/psd.gif" widht="350px" height="500px">
+<img src="/assets/images/project-screenshots/psd.gif" widht="350px" height="500px">
 </p>
 
 
