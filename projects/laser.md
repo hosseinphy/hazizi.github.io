@@ -13,7 +13,6 @@ excerpt: Solidification process of sintered powder Aluminum-based alloys.
 
 <img src="/assets/images/project-screenshots/thermal.gif" width="700">
 
-
 <img src="/assets/images/project-screenshots/cover_photo.png" width="600" height="800"/>
 
 <br clear="down">
