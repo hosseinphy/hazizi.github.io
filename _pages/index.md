@@ -11,7 +11,7 @@ header:
   overlay_color: "#000"
   overlay_image: assets/images/pexels-manuel-geissinger-325229.jpg
   caption: "Photo by Manuel Geissinger from Pexels"
-excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
+<!-- excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack." -->
 
 
 projects_row1:
@@ -65,11 +65,11 @@ projects_row2:
 
 ## Hi, I'm Elliott King
 
-Data Science tickles the empirical part of my brain, but making projects that grow, walk, and run is my true passion.
+<!-- Data Science tickles the empirical part of my brain, but making projects that grow, walk, and run is my true passion.
 
 I am currently volunteering with the [Astoria Digital](https://astoria.digital/) NYC-based aid organization. They provide web development and technical support for local volunteer organizations.
 
-Reach out on [LinkedIn](https://www.linkedin.com/in/elliottwking/) or just [email me](mailto:elliottking93@gmail.com) if you are hiring for NYC or remote! I mostly work with Rails, Python, and JS, but I have dabbled in many technologies.
+Reach out on [LinkedIn](https://www.linkedin.com/in/elliottwking/) or just [email me](mailto:elliottking93@gmail.com) if you are hiring for NYC or remote! I mostly work with Rails, Python, and JS, but I have dabbled in many technologies. -->
 
 ## Projects
 {% include project_row id="projects_row1" %}
