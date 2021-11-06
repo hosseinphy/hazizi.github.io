@@ -24,10 +24,10 @@ projects_row1:
     btn_class: "btn--primary"
     url: "/projects/Classification_project.html" 
     github_url: "https://github.com/elliott-king/resume-compare"
-  - image_path: assets/images/project-screenshots/bill-tracker.png
-    alt: "Bill Tracker Screenshot"
-    title: "NYS Bill Tracker"
-    excerpt: "Search through current NYS Senate bills. Collaboration for [Astoria Digital](https://astoria.digital/) volunteer organization."
+  - image_path: assets/images/fitness.png
+    alt: "E-com Fitness web application"
+    title: "E-com Fitness web application"
+    excerpt: "A web-based application designed to forecast fitness product sales"
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "https://bills.astoria.digital/"
