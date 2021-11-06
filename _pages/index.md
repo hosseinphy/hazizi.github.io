@@ -56,7 +56,7 @@ projects_row2:
     excerpt: "Simulation of solidification process of sintered powder Aluminum-based alloys."
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "/projects/laser"
+    url: "/projects/laser.md"
     github_url: "https://github.com/elliott-king/drawful-1.5"
 
 ---
