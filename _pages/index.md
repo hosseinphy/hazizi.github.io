@@ -16,9 +16,10 @@ excerpt: "I am a full-stack developer based in the US. I enjoy the intersection 
 
 projects_row1:
   - image_path: assets/images/pexels-tima-miroshnichenko-7991579.jpg
-    alt: "Resume Checker Screenshot"
-    title: "ATS Resume Checker"
-    excerpt: "Looks through your resume and job description for shared keywords."
+    caption: "Photo by Tima Miroshnichenko from Pexels"
+    alt: "Box Office Revenue Predictor"
+    title: "Box Office Revenue Predictor"
+    excerpt: "The classifier predicts a movie box-office revenue."
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "https://elliott-king.github.io/resume-compare/"
