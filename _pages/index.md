@@ -30,17 +30,8 @@ projects_row1:
     excerpt: "A web-based application designed to forecast fitness product sales"
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "https://bills.astoria.digital/"
+    url: "https://ecomfit.herokuapp.com/"
     github_url: "https://github.com/astoria-tech/bill-tracker"
-  - image_path: assets/images/project-screenshots/adversity.png
-    alt: "Adversity Job Board Screenshot"
-    title: "Adversity Job Board"
-    excerpt: "A job board for when you want your applicants to REALLY work for it."
-    btn_label: "Visit"
-    btn_class: "btn--primary"
-    url: "https://adversity.herokuapp.com/"
-    github_url: "https://github.com/elliott-king/adversity-board-frontend"
-    youtube_url: "https://www.youtube.com/watch?v=5OK3An-Jqes"
 
 projects_row2:
   - image_path: assets/images/project-screenshots/creepy-tracker.png
