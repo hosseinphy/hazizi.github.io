@@ -9,7 +9,7 @@
 
 ### Cellular patterns
 <p align="center">
-<img src="/images/AMR.gif"  width="700px" >
+<img src="/assets/images/project-screenshots/AMR.gif"  width="700px" >
 </p>
 
 <br><br>
@@ -17,7 +17,7 @@
 
 ### Oscillatory patterns
 <p align="center">
-<img src="/images/oscillating_front.gif"  width="700px" height="150" >
+<img src="/assets/images/project-screenshots/oscillating_front.gif"  width="700px" height="150" >
 </p>
 
 <br><br>
