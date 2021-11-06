@@ -12,7 +12,7 @@ excerpt: PhD McGill September 2017
 
 ### Cellular patterns
 <p align="center">
-<img src="/images/AMR.gif"  width="700px" >
+<img src="/assets/images/AMR.gif"  width="700px" >
 </p>
 
 <br><br>
@@ -20,7 +20,7 @@ excerpt: PhD McGill September 2017
 
 ### Oscillatory patterns
 <p align="center">
-<img src="/images/oscillating_front.gif"  width="700px" height="150" >
+<img src="/assets/images/oscillating_front.gif"  width="700px" height="150" >
 </p>
 
 <br><br>
