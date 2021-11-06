@@ -1,3 +1,10 @@
+---
+layout: single
+title: " Solidification process of sintered powder Aluminum-based alloys."
+excerpt: Marine Additive Manufacturing Centre of Excellence, University of New Brunswick February 2018 - August 2021
+---
+
+
 <img src="/images/Solidifcation.gif" width="900" height="90">
 
 <br clear="down"/>
