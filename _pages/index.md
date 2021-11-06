@@ -21,10 +21,7 @@ projects_row1:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "https://elliott-king.github.io/resume-compare/"
-    github_url: "https://git
-
-
-
+    github_url: "https://github.com/elliott-king/resume-compare"
   - image_path: assets/images/project-screenshots/bill-tracker.png
     alt: "Bill Tracker Screenshot"
     title: "NYS Bill Tracker"
