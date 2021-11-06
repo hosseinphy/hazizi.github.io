@@ -15,7 +15,7 @@ excerpt: "I am a full-stack developer based in the US. I enjoy the intersection 
 
 
 projects_row1:
-  - image_path: assets/images/pexels-tima-miroshnichenko-7991579.png
+  - image_path: assets/images/pexels-tima-miroshnichenko-7991579.jpg
     alt: "Resume Checker Screenshot"
     title: "ATS Resume Checker"
     excerpt: "Looks through your resume and job description for shared keywords."
