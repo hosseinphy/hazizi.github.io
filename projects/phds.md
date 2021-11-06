@@ -11,20 +11,16 @@ excerpt: PhD McGill September 2017
 <br><br>
 
 ### Cellular patterns
-<p align="center">
 <img src="/assets/images/AMR.gif"  width="700px" >
-</p>
 
 <br><br>
 
 
 ### Oscillatory patterns
-<p align="center">
 <img src="/assets/images/oscillating_front.gif"  width="700px" height="150" >
-</p>
+
 
 <br><br>
-
 
 ### Achievements
 <p style="font-size:25px">
