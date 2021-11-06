@@ -1,10 +1,10 @@
-<img src="/assets/images/Solidifcation.gif" width="900" height="90">
+<img src="/images/Solidifcation.gif" width="900" height="90">
 
 <br clear="down"/>
 
-<img src="/assets/images/thermal.gif" width="700">
+<img src="/images/thermal.gif" width="700">
 
-<img src="/assets/images/cover_photo.png" width="600" height="800"/>
+<img src="/images/cover_photo.png" width="600" height="800"/>
 
 <br clear="down">
 
