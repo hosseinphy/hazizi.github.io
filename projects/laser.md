@@ -3,20 +3,20 @@
 
 
 <p align="center">
-<img src="/images/Solidifcation.gif" width="900" height="90">
+<img src="/assets/images/project-screenshots/Solidifcation.gif" width="900" height="90">
 </p>
 
 <br clear="down"/>
 
 <p align="center">
-<img src="/images/thermal.gif" width="700">
+<img src="/assets/images/project-screenshots/thermal.gif" width="700">
 </p>
 
 
 
 
 <p align="center">
-  <img src="/images/cover_photo.png" width="600" height="800"/>
+  <img src="/assets/images/project-screenshots/cover_photo.png" width="600" height="800"/>
   <!--<img src="./cover_photo.png"/>-->
 </p>
 
