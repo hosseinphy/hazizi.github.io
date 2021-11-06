@@ -9,9 +9,10 @@ permalink: /
 
 header:
   overlay_color: "#000"
-  overlay_image: /assets/images/gradient.png
-  # caption: "Gradient from [Coolers](https://coolors.co)"
+  overlay_image: assets/images/pexels-manuel-geissinger-325229.jpg
+  caption: "Photo by Manuel Geissinger from Pexels"
 excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
+
 
 projects_row1:
   - image_path: assets/images/project-screenshots/res-compare.png
