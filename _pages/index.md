@@ -24,7 +24,7 @@ projects_row1:
     btn_class: "btn--primary"
     url: "/projects/Classification_project.html" 
     github_url: "https://github.com/elliott-king/resume-compare"
-  - image_path: assets/images/fitness.png
+  - image_path: assets/images/fitness_small.png
     alt: "E-com Fitness web application"
     title: "E-com Fitness web application"
     excerpt: "A web-based application designed to forecast fitness product sales"
