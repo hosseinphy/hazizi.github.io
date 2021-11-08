@@ -50,7 +50,7 @@ projects_row2:
     btn_class: "btn--primary"
     url: "/projects/stoch_combustion"
     github_url: "https://github.com/elliott-king/creepy-tracker"
-  - image_path: assets/images/project-screenshots/drawful.png
+  - image_path: assets/images/mlayer_laser_cover.png
     alt: "Modeling solidification during metal additive manufacturing"
     title: "Modeling solidification during metal additive manufacturing"
     excerpt: "Simulation of solidification process of sintered powder Aluminum-based alloys."
