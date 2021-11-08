@@ -42,7 +42,7 @@ projects_row2:
     btn_class: "btn--primary"
     url: "/projects/phds"
     github_url: "https://github.com/elliott-king/freedom-js-app"
-  - image_path: assets/images/project-screenshots/freedom.png
+  - image_path: assets/images/random_cover.png
     alt: "Simulation of heat & mass transfer in porous materials"
     title: "Simulation of heat & mass transfer in porous materials"
     excerpt: "Simulation of heat-mass transfer process to assist in design new porous materials, with potential use in energy-efficient products."
