@@ -34,7 +34,7 @@ projects_row1:
     github_url: "https://github.com/astoria-tech/bill-tracker"
 
 projects_row2:
-  - image_path: assets/images/project-screenshots/creepy-tracker.png
+  - image_path: assets/images/phds_cover_img.png
     alt: "Pattern formation in Reaction-Diffusion systems"
     title: "Pattern formation in Reaction-Diffusion systems"
     excerpt: "Simulations of pattern formation in Chemicla/biological complex system."
