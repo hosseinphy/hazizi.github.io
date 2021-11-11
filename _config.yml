@@ -122,7 +122,7 @@ author:
 footer:
   links:   
      - label: "Email"
-       icon: "fab fa-fw fa-github"
+       icon: "fab fa-fw fa-twitter-square"
        url:  "mailto:hosseinphy@gmail.com?"
 #     - label: "Twitter"
 #       icon: "fab fa-fw fa-twitter-square"
