@@ -120,11 +120,12 @@ author:
 
 # Site Footer
 footer:
+  email:    "hosseinphy@gmail.com"
   links:
-     - label: "Email"
-#        icon: "fas fa-fw fa-envelope-square"
-       icon: "fa fa-envelope-square fa-fw"
-       url: "hosseinphy@gmail.com"
+#      - label: "Email"
+# #        icon: "fas fa-fw fa-envelope-square"
+#        icon: "fa fa-envelope-square fa-fw"
+#        url: "hosseinphy@gmail.com"
 #     - label: "Twitter"
 #       icon: "fab fa-fw fa-twitter-square"
 #       url: "https://twitter.com/send_bitcoin"
