@@ -62,7 +62,7 @@ projects_row2:
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
-
+About me:
 
 ## Projects
 {% include project_row id="projects_row1" %}
