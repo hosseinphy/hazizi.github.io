@@ -67,23 +67,6 @@ About me:
 I have a PhD in Computational Physics from McGill University. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. Moreover, as a Fellow at The Data Incubator I have learned additional skills that have further strengthened my abilities as a data scientist, including:  ML frameworks (Keras, TensorFlow, Scikit-learn), Spark (ML, SQL), Cloud Computing (AWS: S3, Redshift, EMR, EC2), SQL, Automated algorithm design as well as Business mindset.
 
 
-
-•	I have practical experience in building and deploying scalable Machine Learning and Deep Learning products
-
-•	I have experience in automated algorithm design, developing and maintaining data pipelines and ML workflow
-
-•	I have solid academic and research background in mathematical and statistical modelling
-
-•	I have experience in developing predictive modeling to increase and optimize business outcomes 
-
-•	I excel in designing high performance parallel/distributed computing algorithms
-
-•	I am an independent thinker, a fast learner, and a go-to person. I thrive in unexpected situations, take initiative, and enjoy being part of a motivated team
-![image](https://user-images.githubusercontent.com/34116430/141375556-89d1b44c-f2bb-4c32-a24a-c98aadf0727f.png)
-
-
-
-
 ## Projects
 {% include project_row id="projects_row1" %}
 {% include project_row id="projects_row2" %}
