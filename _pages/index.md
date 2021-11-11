@@ -63,6 +63,9 @@ projects_row2:
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
 About me:
+<h2 style="font-size:25px">About Me:</h2>
+I have a PhD in Computational Physics from McGill University. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. Moreover, as a Fellow at The Data Incubator I have learned additional skills that have further strengthened my abilities as a data scientist, including:  ML frameworks (Keras, TensorFlow, Scikit-learn), Spark (ML, SQL), Cloud Computing (AWS: S3, Redshift, EMR, EC2), SQL, Automated algorithm design as well as Business mindset.
+
 
 ## Projects
 {% include project_row id="projects_row1" %}
