@@ -120,6 +120,10 @@ author:
 
 # Site Footer
 footer:
+  email: "hosseinphy@gmail.com"
+  linkedin: "https://www.linkedin.com/in/hossein-azizi"
+  google-scholar: "https://scholar.google.com/citations?user=UypsLd8AAAAJ&hl=en"
+  
   links:
 #      - label: "Email"
 #        icon: "fas fa-fw fa-envelope-square"
