@@ -120,7 +120,6 @@ author:
 
 # Site Footer
 footer:
-  email:    "hosseinphy@gmail.com"
   links:
      - label: "Email"
        icon: "fab fa-fw fa-envelope-square"
