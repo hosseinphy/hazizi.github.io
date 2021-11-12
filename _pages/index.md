@@ -64,15 +64,24 @@ projects_row2:
 <link rel="stylesheet" href="/assets/styles/projects.css">
 
 <h2 style="font-size:25px">About Me:</h2>
-I have a PhD in Computational Physics from McGill University. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. Moreover, as a Fellow at The Data Incubator I have learned additional skills that have further strengthened my abilities as a data scientist, including:  ML frameworks (Keras, TensorFlow, Scikit-learn), Spark (ML, SQL), Cloud Computing (AWS: S3, Redshift, EMR, EC2), SQL, Automated algorithm design as well as Business mindset.
+I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. 
 
+AS a data scientist I have hands on experince with: 
+<li> ML algorithms & frameworks: Keras, TensorFlow, Scikit-learn</li>
+<li> Big Data tools & Cloud Computing: Spark (Ml, SQl), AWS (S3, Redshift, EMR, EC2)</li>
+<li> NLP & Sentiment Analysis</li>
+<li> Advanced statistical techniques & concepts: Random Forests, Support Vector machine, Gradient boosting, artificial neural networks, Bayesian networks, Regression, Time Series, statistical tests</li>
+
+Some of my selected achievements and qualifications: 
 <li> I have practical experience in building and deploying scalable Machine Learning and Deep Learning products</li>
 <li> I have experience in automated algorithm design, developing and maintaining data pipelines and ML workflow</li>
 <li> I have solid academic and research background in mathematical and statistical modelling</li>
-<li> I have experience in developing predictive modeling to increase and optimize business outcomes</li> 
 <li> I excel in designing high performance parallel/distributed computing algorithms</li>
 <li> I am an independent thinker, a fast learner, and a go-to person. I thrive in unexpected situations, take initiative, and enjoy being part of a motivated team</li>
 
+Below you can find some of the p
+I am based at Montrea, Canada 
+Reach out on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com) if you are hiring for NYC or remote! I mostly work with Rails, Python, and JS, but I have dabbled in many technologies.
 
 
 ## Projects
