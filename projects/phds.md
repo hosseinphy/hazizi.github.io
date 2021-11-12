@@ -11,7 +11,7 @@ excerpt: PhD McGill September 2017
 <br><br>
 
 ### Cellular patterns
-<img src="/images/AMR.gif"  width="700px" >
+<img src="/assets/images/AMR.gif"  width="700px" >
 
 <br><br>
 
