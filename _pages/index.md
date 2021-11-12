@@ -22,7 +22,7 @@ projects_row1:
     excerpt: "The classifier predicts a movie box-office revenue."
     btn_label: "Visit"
     btn_class: "btn--primary"
-    url: "/projects/Classification_project.html" 
+    url: "/projects/Hollywood_bluckbuster_github_portfolio.html" 
     # github_url: ""
   - image_path: assets/images/fitness_small.png
     alt: "E-com Fitness web application"
