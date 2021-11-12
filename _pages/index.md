@@ -23,7 +23,7 @@ projects_row1:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "/projects/Classification_project.html" 
-    github_url: "https://github.com/elliott-king/resume-compare"
+    # github_url: ""
   - image_path: assets/images/fitness_small.png
     alt: "E-com Fitness web application"
     title: "E-com Fitness web application"
@@ -31,7 +31,6 @@ projects_row1:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "https://ecomfit.herokuapp.com/"
-    github_url: "https://github.com/astoria-tech/bill-tracker"
 
 projects_row2:
   - image_path: assets/images/phds_cover_img.png
@@ -41,7 +40,6 @@ projects_row2:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "/projects/phds"
-    github_url: "https://github.com/elliott-king/freedom-js-app"
   - image_path: assets/images/random_cover.png
     alt: "Simulation of heat & mass transfer in porous materials"
     title: "Simulation of heat & mass transfer in porous materials"
@@ -49,7 +47,6 @@ projects_row2:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "/projects/stoch_combustion"
-    github_url: "https://github.com/elliott-king/creepy-tracker"
   - image_path: assets/images/mlayer_laser_cover.png
     alt: "Modeling solidification during metal additive manufacturing"
     title: "Modeling solidification during metal additive manufacturing"
@@ -57,8 +54,6 @@ projects_row2:
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "/projects/laser"
-    github_url: "https://github.com/elliott-king/drawful-1.5"
-
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
