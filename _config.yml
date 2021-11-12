@@ -121,6 +121,9 @@ author:
 # Site Footer
 footer:
   links:   
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "ceceececec"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/elliott-king"
