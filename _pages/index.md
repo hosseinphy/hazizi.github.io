@@ -67,10 +67,12 @@ projects_row2:
 I am a data professional based at Montreal. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. 
 
 AS a data scientist I have hands on experince with: 
+<ul>
 <li> ML algorithms & frameworks: Keras, TensorFlow, Scikit-learn</li>
 <li> Big Data tools & Cloud Computing: Spark (Ml, SQl), AWS (S3, Redshift, EMR, EC2)</li>
 <li> NLP & Sentiment Analysis</li>
 <li> Advanced statistical techniques & concepts: Random Forests, Support Vector machine, Gradient boosting, artificial neural networks, Bayesian networks, Regression, Time Series, statistical tests</li>
+</ul>
 
 <br>
 Below are Some of my selected projects.
