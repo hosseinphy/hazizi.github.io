@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-description: I am a developer in New York City. I have experience all across the board, from Ruby/Rails and React, to some machine learning.
+# description: I am a developer in New York City. I have experience all across the board, from Ruby/Rails and React, to some machine learning.
 layout: splash
 # author_profile: true
 permalink: /
@@ -62,9 +62,17 @@ projects_row2:
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
-About me:
+
 <h2 style="font-size:25px">About Me:</h2>
 I have a PhD in Computational Physics from McGill University. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. Moreover, as a Fellow at The Data Incubator I have learned additional skills that have further strengthened my abilities as a data scientist, including:  ML frameworks (Keras, TensorFlow, Scikit-learn), Spark (ML, SQL), Cloud Computing (AWS: S3, Redshift, EMR, EC2), SQL, Automated algorithm design as well as Business mindset.
+
+<li> I have practical experience in building and deploying scalable Machine Learning and Deep Learning products</li>
+<li> I have experience in automated algorithm design, developing and maintaining data pipelines and ML workflow</li>
+<li> I have solid academic and research background in mathematical and statistical modelling</li>
+<li> I have experience in developing predictive modeling to increase and optimize business outcomes</li> 
+<li> I excel in designing high performance parallel/distributed computing algorithms</li>
+<li> I am an independent thinker, a fast learner, and a go-to person. I thrive in unexpected situations, take initiative, and enjoy being part of a motivated team</li>
+
 
 
 ## Projects
