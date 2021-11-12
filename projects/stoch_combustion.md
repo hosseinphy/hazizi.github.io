@@ -14,7 +14,7 @@ excerpt: Research Associate McGill Sep 2017 - January 2018
 
 ### Stochastic Cellular Patterns
 <p align="center">
-<img src="/images/stock_combust_anim.gif" width="680px">
+<img src="/assets/images/stock_combust_anim.gif" width="680px">
 </p>
 
 
@@ -23,7 +23,7 @@ excerpt: Research Associate McGill Sep 2017 - January 2018
 
 ### Power Spectrum Density
 <p align="center">
-<img src="/images/psd.gif" widht="350px" height="500px">
+<img src="/assets/images/psd.gif" widht="350px" height="500px">
 </p>
 
 
