@@ -72,7 +72,7 @@ AS a data scientist I have hands on experince with:
 <li> NLP & Sentiment Analysis</li>
 <li> Advanced statistical techniques & concepts: Random Forests, Support Vector machine, Gradient boosting, artificial neural networks, Bayesian networks, Regression, Time Series, statistical tests</li>
 
-
+<br>
 Below are Some of my selected projects.
 
 If hiring, please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
