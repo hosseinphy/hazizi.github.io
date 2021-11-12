@@ -17,7 +17,7 @@ excerpt: PhD McGill September 2017
 
 
 ### Oscillatory patterns
-<img src="/images/oscillating_front.gif"  width="700px" height="150" >
+<img src="/assets/images/oscillating_front.gif"  width="700px" height="150" >
 
 
 <br><br>
