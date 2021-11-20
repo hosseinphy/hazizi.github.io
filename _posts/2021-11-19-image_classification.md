@@ -18,6 +18,5 @@ In this project, we classify seires of images into ten classes using multi-layer
 We used tranfer learning from the pre-trained *Inception* model. During the traing all the layers of the pre-trained model are frozen (will not train). In other words, the pre-trained model is utilized as feature extractor preprocessor.
 
 <div align="center">
-  <img src="/assets/images/blogs/pred_labels.png" width="600px" height="240" alt="Photo of a lighthouse.">
-  <p>Ten sample images representing ten classes</p>
+  <img src="/assets/images/blogs/pred_labels.png" width="500px" height="200" alt="Photo of a lighthouse.">
 </div>
