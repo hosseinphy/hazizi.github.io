@@ -12,17 +12,17 @@ In this project, we classify seires of images into ten classes using multi-layer
 
 <!-- <img src="/assets/images/blogs/ten_classes.png" width="700px" height="150"> -->
 
-<p align="center">
+<!-- <p align="center">
  | <img src="/assets/images/blogs/ten_classes.png" width="500px" height="200"> |
  |:--:|
  | *Blondes, brunettes, or redheads?* |
  </p>
+  -->
  
- 
- <figure class="image">
+ <div align="center">
   <img src="/assets/images/blogs/ten_classes.png" width="500px" height="200" alt="Photo of a lighthouse.">
-  <figcaption>Ten sample images representing ten classes</figcaption>
-</figure>
+  <p>Ten sample images representing ten classes</p>
+</div>
 
 
 <!-- | <p align="center"><img src="/assets/images/blogs/ten_classes.png" width="500px" height="200"></p> |
