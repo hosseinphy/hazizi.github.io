@@ -8,6 +8,6 @@ excerpt: Classifying images using series of neural networks.
 
 In this project, we classify seires of images into ten classes using multi-layer perceptron, conveloutional neural network, and by using transfer learning from a pre-trained model (Inception). 
 
-| ![Ten sample images representing ten classes?](/assets/images/blogs/matrix_code.jpeg "Blondes, brunettes, or redheads?") |
+| ![Ten sample images representing ten classes?](/assets/images/blogs/ten_classes.png "Blondes, brunettes, or redheads?") |
 |:--:|
 | *Blondes, brunettes, or redheads?* |
