@@ -11,11 +11,14 @@ In this project, we classify seires of images into ten classes using multi-layer
 <!-- <img src="/assets/images/oscillating_front.gif"  width="700px" height="150" > -->
 
 <!-- <img src="/assets/images/blogs/ten_classes.png" width="700px" height="150"> -->
+<p float="center">
+ <img src="/assets/images/blogs/ten_classes.png" width="500px" height="200">
+</p>
 
-| <p align="center"><img src="/assets/images/blogs/ten_classes.png" width="500px" height="200"></p> |
+<!-- | <p align="center"><img src="/assets/images/blogs/ten_classes.png" width="500px" height="200"></p> |
 |:--:|
 | *Blondes, brunettes, or redheads?* |
-
+ -->
 
 <!-- | ![Ten sample images representing ten classes?](/assets/images/blogs/ten_classes.png ) |
 |:--:|
