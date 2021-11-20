@@ -12,7 +12,7 @@ In this project, we classify seires of images into ten classes using multi-layer
 
 <!-- <img src="/assets/images/blogs/ten_classes.png" width="700px" height="150"> -->
 
-| <img src="/assets/images/blogs/ten_classes.png" width="500px" height="100"> |
+| <img src="/assets/images/blogs/ten_classes.png" width="500px" height="200"> |
 |:--:|
 | *Blondes, brunettes, or redheads?* |
 
