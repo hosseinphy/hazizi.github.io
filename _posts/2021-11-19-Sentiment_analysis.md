@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Social Graph"
+title: "Sentiment Analysis"
 date: 2021-11-19 12:00:00 -0000
 categories: web scraping  nlp  
 excerpt: Extract the sentiment form text data.
