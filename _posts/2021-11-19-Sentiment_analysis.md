@@ -89,7 +89,7 @@ The estimated RMSE: 0.79
 ```
 
 
-$e^{i \pi} = -1$
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 ## Word polarity
 ### create labels based on the reviews
