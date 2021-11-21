@@ -8,8 +8,20 @@ excerpt: Extract the sentiment form text data.
 
 In this project, our objective is to extract sentiment form more than 250000 Yelp review data. We build and train a model that can predict rating of reviews based on the text of reviews. Another approch is to look at the polarity of words. We deployed a naive Bayes model to claculate the polarity of words.
 
+
+
+
+
+## Data
+```markdown
+{'votes': {'funny': 0, 'useful': 0, 'cool': 0}, 'user_id': 'tYwzsMLMc8juCuIMDAx3dw', 'review_id': 'QsrzjenckNACuOgaEiMWfA', 'stars': 4, 'date': '2011-08-18', 'text': 'Nice simple homey diner. Very friendly staff, huge family friendly menu, salad bar. If you are on the road this beats the same old options.', 'type': 'review', 'business_id': 'uGykseHzyS5xAMWoN6YUqA'}
+
+```
+
 ## Bigram_model
 ```python
+params
+
 pipe_feature = Pipeline([
                 ('column_transformer', ColumnSelectTransformer(['text'])),
                 ('tfidf_vect', TfidfVectorizer(max_features=3000,                                
