@@ -37,10 +37,19 @@ def pre_processor(doc):
 This function can be provided as a paramter of TfidfVectorizer
 
 ## Feature engineering
-  - Stop words, tokenization and Lemmatization are done using spaCy   
-   - We considered apperence of both single words and pairs of consecutive words (bi-grams)
+  - Stop words, tokenization and Lemmatization are done using spaCy, as shown in the snippet below.   
+   - We considered apperence of both single words and pairs of consecutive words (bi-grams).
    - Using the __tf-idf__ values of words or n-grams.
 
+```python
+from spacy.lang.en.stop_words import STOP_WORDS
+nlp = spacy.load('en')
+
+def tokenize_lemma(text):
+    return [w.lemma_.lower() for w in nlp(text)]
+
+stop_words_lemma = set(tokenize_lemma(' '.join(STOP_WORDS)))
+```
 
 ## Bigram_model
 
@@ -73,9 +82,11 @@ gs = GridSearchCV(Ridge(), param_grid)
 pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])  
 
 pipe_lr.fit(data, stars);
-pipe_lr.predict(data[-3000:], stars[-3000:]))
 ```
-
+```markdown
+The estimated $R^2$: 0.65
+The estimated RMSE: 0.79
+```
 
 ## Word polarity
 ### create labels based on the reviews
