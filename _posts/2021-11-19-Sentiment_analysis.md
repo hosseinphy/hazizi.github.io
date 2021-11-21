@@ -9,9 +9,6 @@ excerpt: Extract the sentiment form text data.
 In this project, our objective is to extract sentiment form more than 250000 Yelp review data. We build and train a model that can predict rating of reviews based on the text of reviews. Another approch is to look at the polarity of words. We deployed a naive Bayes model to claculate the polarity of words.
 
 
-
-
-
 ## Data format
 The training data that are a series of JSON objects were downloaded from aws s3 bucket, and then converted into a list of dictionaries `data` using  [`ujson`](http://docs.micropython.org/en/latest/library/ujson.html) library. A sample review data format is shown below:
 
@@ -59,9 +56,9 @@ The snippet below shows a pipeline that will transform the data from records all
 ```python
 pipe_feature = Pipeline([
                 ('column_transformer', ColumnSelectTransformer(['text'])),
-                ('tfidf_vect', TfidfVectorizer(max_features=mf,                                
-                                    min_df=mn,
-                                    max_df=mx,
+                ('tfidf_vect', TfidfVectorizer(max_features=mf,  # mf: optimal max_features                             
+                                    min_df=mn,                   # mn: optimal min_df
+                                    max_df=mx,                   # mx: optimal max_df
                                     preprocessor=pre_processor,
                                     ngram_range=(1,2),
                                     stop_words=stop_words_lemma,
