@@ -83,7 +83,7 @@ pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])
 
 pipe_lr.fit(data, stars);
 ```
-The estimated n^2 0.65
+The estimated h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 The estimated RMSE: 0.79
 
