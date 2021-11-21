@@ -88,6 +88,9 @@ The estimated R<sup>2</sup>: 0.64
 The estimated RMSE: 0.79
 ```
 
+![\sum_{\forall i}{x_i^{2}}](https://latex.codecogs.com/svg.latex?%5Csum_%7B%5Cforall+i%7D%7Bx_i%5E%7B2%7D%7D)
+
+
 ## Word polarity
 ### create labels based on the reviews
 ```python
