@@ -84,7 +84,7 @@ pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])
 pipe_lr.fit(data, stars);
 ```
 ```markdown
-The estimated $R^2$: 0.65
+The estimated <img src="https://render.githubusercontent.com/render/math?math=R^{2}">: 0.65
 The estimated RMSE: 0.79
 ```
 
