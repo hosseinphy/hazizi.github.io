@@ -83,7 +83,7 @@ pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])
 
 pipe_lr.fit(data, stars);
 ```
-The estimated R<sup>2;</sup>
+The estimated R<sup>2</sup>: 0.64
 
 The estimated RMSE: 0.79
 
