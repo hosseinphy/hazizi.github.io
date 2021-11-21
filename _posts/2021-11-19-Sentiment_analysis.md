@@ -88,8 +88,9 @@ The estimated R<sup>2</sup>: 0.64
 The estimated RMSE: 0.79
 ```
 
-
+```markdown
 ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+```
 
 ## Word polarity
 ### create labels based on the reviews
