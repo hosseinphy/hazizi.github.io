@@ -26,18 +26,42 @@ The training data that are a series of JSON objects were downloaded from aws s3 
 'type': 'review', 
 'business_id': 'uGykseHzyS5xAMWoN6YUqA'
 }
-
 ```
 
-## Bigram_model
-```python
-params
+The target labels (i.e. *stars*) are pulled from data and saved in a separate list.
 
+## Data preprocessing
+To slightly clean up the text, we remove special characters: 
+```python
+def pre_processor(doc):
+    doc = re.sub("(\\W)+"," ",doc)
+    return doc
+```
+This function can be provided as a paramter of TfidfVectorizer
+
+## Feature engineering
+  - Stop words, tokenization and Lemmatization are done using spaCy   
+   - We considered apperence of both single words and pairs of consecutive words (bi-grams)
+   - Using the __tf-idf__ values of words or n-grams.
+
+
+## Bigram_model
+
+### Hyperparamters
+The selected hyperparamters for this model are those that control the vocabulary in the tokenization step (`max_features`, `min_df`, `max_df`)
+and the regularization of the regression estimator (`alpha`). To determine these paramters we used [`GridSearchCV`](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV). 
+
+### Data transformation 
+Since we aimed to predict star values of reviews based on their text, we built a custom scikit-learn transformer (`ColumnSelectTransformer`) that returns a list of text of all reviews from all records.
+
+The snippet below shows a pipeline that will transform the data from records all the way to predictions, where the hyperparamter tuning is only operating on an `Ridge` estimator that was fed to `GridSearchCV`.
+
+```python
 pipe_feature = Pipeline([
                 ('column_transformer', ColumnSelectTransformer(['text'])),
-                ('tfidf_vect', TfidfVectorizer(max_features=3000,                                
-                                    min_df=0.001,
-                                    max_df= 0.99,
+                ('tfidf_vect', TfidfVectorizer(max_features=mf,                                
+                                    min_df=mn,
+                                    max_df=mx,
                                     preprocessor=pre_processor,
                                     ngram_range=(1,2),
                                     stop_words=stop_words_lemma,
@@ -49,7 +73,10 @@ pipe_feature = Pipeline([
 
 param_grid = {'alpha': np.logspace(-1, 1, 5)}
 gs = GridSearchCV(Ridge(), param_grid)    
-pipe_lr = Pipeline([('feat', pipe_feature), ('lr_gs', gs)])     
+pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])  
+
+pipe_lr.fit(data, stars);
+pipe_lr.predict(data[-3000:], stars[-3000:]))
 ```
 
 
