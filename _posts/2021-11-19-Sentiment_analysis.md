@@ -16,7 +16,14 @@ In this project, our objective is to extract sentiment form more than 250000 Yel
 ```markdown
 {
 'votes': {'funny': 0, 'useful': 0, 'cool': 0}, 
-'user_id': 'tYwzsMLMc8juCuIMDAx3dw', 'review_id': 'QsrzjenckNACuOgaEiMWfA', 'stars': 4, 'date': '2011-08-18', 'text': 'Nice simple homey diner. Very friendly staff, huge family friendly menu, salad bar. If you are on the road this beats the same old options.', 'type': 'review', 'business_id': 'uGykseHzyS5xAMWoN6YUqA'}
+'user_id': 'tYwzsMLMc8juCuIMDAx3dw', 
+'review_id': 'QsrzjenckNACuOgaEiMWfA', 
+'stars': 4, 
+'date': '2011-08-18', 
+'text': 'Nice simple homey diner. Very friendly staff, huge family friendly menu, salad bar. If you are on the road this beats the same old options.', 
+'type': 'review', 
+'business_id': 'uGykseHzyS5xAMWoN6YUqA'
+}
 
 ```
 
