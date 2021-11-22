@@ -2,7 +2,7 @@
 layout: single
 title: "Big Data Analysis"
 date: 2021-11-19 12:00:00 -0000
-categories: big data spark machine learning   
+categories: Big_Data Spark NLP   
 excerpt: Perform data analysis and machine learning on large messy data sets.
 ---
 ## Summary
