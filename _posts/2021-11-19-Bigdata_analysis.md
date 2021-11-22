@@ -16,12 +16,7 @@ The data are download from aws s3 bucket with the following format:
 
 
 ```html
-<row Body="&lt;p&gt;I always validate my web pages, and I recommend you do the same BUT many large company websites 
-DO NOT and cannot validate because the importance of the website looking exactly the same on all systems 
-requires rules to be broken. &lt;/p&gt;&#10;&#10;&lt;p&gt;In general,valid websites help yourpage look good 
-even on odd configurations (like cell phones) so you should always at least try to make it validate.&lt;/p&gt;&#10;"       
-CommentCount="0" CreationDate="2008-10-12T20:26:29.397" Id="195995" LastActivityDate="2008-10-12T20:26:29.397" 
-OwnerDisplayName="Eric Wendelin" OwnerUserId="25066" ParentId="195973" PostTypeId="2" Score="0" /> 
+<row Body="&lt;p&gt;Have you considered using the Joachims\' &lt;a href=&quot;http://svmlight.joachims.org/svm_multiclass.html&quot; rel=&quot;nofollow&quot;&gt;SVM Light\'s MultiClass classifier&lt;/a&gt;? &#10;&lt;a href=&quot;http://svmlight.joachims.org/svm_multiclass.html&quot; rel=&quot;nofollow&quot;&gt;http://svmlight.joachims.org/svm_multiclass.html&lt;/a&gt;&lt;/p&gt;&#10;" CommentCount="0" CreationDate="2012-08-02T19:15:04.647" Id="33580" LastActivityDate="2012-08-02T19:15:04.647" OwnerUserId="12060" ParentId="21465" PostTypeId="2" Score="1" /> 
 ```
 
 
