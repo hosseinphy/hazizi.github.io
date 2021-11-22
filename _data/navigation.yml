@@ -1,7 +1,7 @@
 # main links
 main:
-#   - title: "Projects"
-#     url: /archive/
+  - title: "Projects"
+    url: /archive/
   - title: "Resume"
     url: /pdf/hazizi_final_CV.pdf
 #   - title: "About Me"
