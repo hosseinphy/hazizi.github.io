@@ -87,8 +87,28 @@ The estimated R<sup>2</sup> =  0.64 and RMSE =  0.79
 
 
 ## Word polarity
+Another apprpach to derive some insights from our data is the Polarity Analysis which can offer a simplistic view of the sentiment information,
+based on the polarity of the words in a given sentence. The aim of this model is to identify the most "polarizing words" in the corpus of reviews that strongly signal positive (five-star), or negative (one-star) reviews. 
+
+### Model
+We employed [naive Bayes model](https://scikit-learn.org/stable/modules/naive_bayes.html#) to calculate a **polarity score** for each word $w$,
+$\textrm{polarity}(w) = \log\left(\frac{Pr(w\ |\ \textrm{positive})}{Pr(w\ |\ \textrm{negative})}\right).$ Naive Bayes models can offer some major advantages, including their higher explicability compared to more complex models, they are easy to train, and a parallelizable training process.
+
+
+The model is constructed using the following steps:
+1. Isolate the reviews with highest and lowest stars, which should contain the most polarizing words.
+2. Used `MultinomialNB` naive Bayes model to train on feature matrix of the most polar reviews (created by TfidfVectorizer with TF-IDF weighting and removing stop words).
+3. Calculate the probability of words in the vocabulary, and extract the most polar ones.
+
+
+
+
 ### create labels based on the reviews
 ```python
+# Create the most polar reviews
+polar_data = [row['text'] for row in data if row['stars'] == 5 or row['stars'] == 1] 
+
+# Create labels based on the ratings
 def create_labels(doc):
     tmp = ['positive' if row['stars'] == 5 else 'negative' if row['stars'] == 1 else None for row in doc]
     return [item for item in tmp if item != None]
