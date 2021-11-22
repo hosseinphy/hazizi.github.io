@@ -8,31 +8,29 @@ excerpt: Perform data analysis and machine learning on large messy data sets.
 
 In this project, we performed  data manipulation, analysis, and machine learning on the Stack Overflow data set. 
 
-## Data Preparation
+## Data format & parsing
+The anonymized data are download from aws s3 bucket with the following format:
 
-### Data 
-The data are download from aws s3 bucket with the following format:
-
-
-
-```html
+```xml
 <row Body="&lt;p&gt;Have you considered using the Joachims\' &lt;a href=&quot;http://svmlight.joachims.org/svm_multiclass.html&quot;   
            rel=&quot;nofollow&quot;&gt;SVM Light\'s MultiClass classifier&lt;/a&gt;? &#10;&lt;a href=&quot;http://svmlight.joachims.   
            org/svm_multiclass.html&quot;rel=&quot;nofollow&quot;&gt;http://svmlight.joachims.org/svm_multiclass.html&lt;/a&gt;&lt;    
            /p&gt;&#10;"CommentCount="0" CreationDate="2012-08-02T19:15:04.647" Id="33580" LastActivityDate="2012-08-02T19:15:04.647".  
             OwnerUserId="12060" ParentId="21465" PostTypeId="2" Score="1" /> 
 ```
+The 
 
+ Using this behavior, they have answered questions about user behavior to predict the long-term behavior of new user
 
-The data we used here is already anonymized.
-
-We are intersted in patterns in data such as:
+## Data analysis
+By performing SQL-like queries on Spark DataFrames, we can answer questions about user beahviour such as:
 <ul> 
   <li>Relationship between the number of times a post was favorited (the `FavoriteCount`) and the `Score`.</li>
-  <li>correlation between a user's reputation and the kind of posts they make.</li>    
+  <li>Correlation between a user's reputation and the kind of posts they make.</li>    
   <li>Identify "veterans" (user to remain active on the site over a long period of time) and compare their characterstics with  "brief   
       users".</li>  
 </ul>
+These patterns in data can help us to predict the *long-term* behaviour of new users.
 
 ### Predict question tags
 
