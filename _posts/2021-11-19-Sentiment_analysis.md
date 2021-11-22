@@ -107,9 +107,9 @@ The model is constructed using the following steps:
 ```python
 # Create the most polar reviews and labels
 pos_data = [row['text'] for row in data if row['stars'] == 5 ]
-neg_data = [row['text'] for row in data if row['stars'] == 1]
+neg_data = [row['text'] for row in data if row['stars'] == 1 ]
 polar_data = pos_data + neg_data
 
 labels = ['positive'] * len(pos_data)  + ['negative'] * len(neg_data)
-```python
+```
 
