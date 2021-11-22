@@ -234,7 +234,7 @@ plt.tight_layout()
 
 
     
-![png](output_19_0.png)
+![png](/assets/images/blockbuster/output_19_0.png)
     
 
 
