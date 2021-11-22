@@ -73,7 +73,7 @@ As a data scientist I have hands on experience with:
 <br>
 Below are some of my selected projects.
 
-If hiring: please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
+Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
 
 ## Projects
