@@ -7,13 +7,20 @@ excerpt: Classifying images using series of neural networks.
 ---
 
 ## Summary
-In this project, we classify seires of images into ten classes using multi-layer perceptron, conveloutional neural network, and by using transfer learning from a pre-trained model (Inception). 
+In this project, we classify series of images into ten classes using multi-layer perceptron, convolutional neural network, and by using transfer learning from a pre-trained model (Inception model).
 
+
+## Data format
+We used `CIFAR-10` data set that consists of 60,000 images, each $32\times32$ color pixels, each belonging to one of ten classes. We used 50,000 images for traing and 10,000 for validation of our models. 
+
+<br>
  
  <div align="center">
   <img src="/assets/images/blogs/ten_classes.png" width="600px" height="240" alt="Photo of a lighthouse.">
   <p>Ten sample images representing ten classes</p>
  </div>
+
+<br>
 
 ## Transfer learning 
 In this approach we computed the latent vectors (the result of the images run through a pre-trained network) ahead of time and use those as our input features to the last few dense layers. The pre-trained network that we used here is [`Inception`](https://keras.io/applications/). 
