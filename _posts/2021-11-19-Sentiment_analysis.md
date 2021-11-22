@@ -139,7 +139,7 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 ```
 
 
-<span style="background-color: #FFFF00">awesome</span> service they had an <span style="background-color: #FFFF00">awesome</span> drink called the ginger beast when we came to eat here we asked for it it s no longer on the menu they stopped serving it a few months ago according to our waitress but she asked the barkeep and the bar was willing to make it for us <span style="background-color: #FFFF00">awesome</span> service the food here is top notch fresh and wow yummo the oyster tasting shooters are great the shibuya roll is great the shibaki tuna tartare is great the pork crisp is yummy and the black cod wow <span style="background-color: #FFFF00">awesome</span> and did i mention how good the shibuya roll is it was so good that we had to order another one <span style="background-color: #FFFF00">awesome</span> place inside the mgm grand
+![](https://img.shields.io/static/v1?label=&message=awesome&color=green) service they had an ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) drink called the ginger beast when we came to eat here we asked for it it s no longer on the menu they stopped serving it a few months ago according to our waitress but she asked the barkeep and the bar was willing to make it for us ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) service the food here is top notch fresh and wow yummo the oyster tasting shooters are great the shibuya roll is great the shibaki tuna tartare is great the pork crisp is yummy and the black cod wow ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) and did i mention how good the shibuya roll is it was so good that we had to order another one ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) place inside the mgm grand
 ```html
 <mark>Marked text</mark>
 ```
@@ -152,38 +152,12 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 ```
 
 
-![](https://img.shields.io/static/v1?label=&message=awesome&color=red)
+
+![](https://img.shields.io/static/v1?label=&message=awesome&color=green)
+![](https://img.shields.io/static/v1?label=&message=notch&color=green)
 
 
-<div class="text-white bg-blue mb-2">
-  .text-white on .bg-blue
-</div>
-<div class="bg-blue-light mb-2">
-  .text-gray-dark on .bg-blue-light
-</div>
-<div class="text-white bg-red mb-2">
-  .text-white on .bg-red
-</div>
-<div class="text-red bg-red-light mb-2">
-  .text-red on .bg-red-light
-</div>
-<div class="bg-green-light mb-2">
-  .text-gray-dark on .bg-green-light
-</div>
-<div class="bg-yellow mb-2">
-  .text-gray-dark on .bg-yellow
-</div>
-<div class="bg-yellow-light mb-2">
-  .text-gray-dark on .bg-yellow-light
-</div>
-<div class="text-white bg-purple mb-2">
-  .text-white on .bg-purple
-</div>
-<div class="text-white bg-gray-dark mb-2">
-  .text-white on .bg-gray-dark
-</div>
-<div class="bg-gray">
-  .text-gray-dark on .bg-gray
-</div>
+
+
 
 ## Conclusion
