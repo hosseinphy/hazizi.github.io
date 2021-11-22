@@ -18,7 +18,23 @@ The anonymized data are download from aws s3 bucket with the following format:
            /p&gt;&#10;"CommentCount="0" CreationDate="2012-08-02T19:15:04.647" Id="33580" LastActivityDate="2012-08-02T19:15:04.647".  
             OwnerUserId="12060" ParentId="21465" PostTypeId="2" Score="1" /> 
 ```
-The 
+we used `lxml.etree` to parse XML files
+
+```python
+from lxml import etree
+file_posts_stats = "spark-stats-data/allPosts/*"
+
+def get_posts_data(fpath):
+
+    # cleaned xmls
+    rdd_clean_xmls = sc.textFile(fpath)\
+             .filter(lambda row: '<row' in row) \
+             .map(parse_row)\
+             .filter(lambda x: x is not None)
+
+    # rdd of extracted elements
+    return rdd_clean_xmls.map(lambda el: get_attributes(el, atrrib_keys))
+```
 
  Using this behavior, they have answered questions about user behavior to predict the long-term behavior of new user
 
