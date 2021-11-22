@@ -135,9 +135,8 @@ gs.fit(polar_data, labels);
 ```
 
 Two sample positve and negative reviews including 
-```html
-    <font color='green'>eccce</font>
-```    
+<font color='red'> Here </font>  
+
 <p align="center">
     <img src="/assets/images/blogs/nlp_text.png">
 </p>    
