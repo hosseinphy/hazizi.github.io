@@ -2,7 +2,7 @@
 layout: single
 title: "Sentiment Analysis"
 date: 2021-11-19 12:00:00 -0000
-categories: web scraping nlp  naive Bayes polarity analysis
+categories: Web-scraping  NLP  Polarity-Aalysis Bag_of_word 
 excerpt: Extract the sentiment form text data.
 ---
 
