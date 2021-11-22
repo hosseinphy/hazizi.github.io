@@ -2,18 +2,18 @@
 layout: single
 title: "Sentiment Analysis"
 date: 2021-11-19 12:00:00 -0000
-categories: web scraping  nlp  
+categories: web scraping nlp  naive Bayes polarity analysis
 excerpt: Extract the sentiment form text data.
 ---
 
 ## Summary
-In this project, our objective is to extract sentiment form more than 250000 Yelp review data. We build and train a model that can predict rating of reviews based on the text of reviews. Another approch is to look at the polarity of words. We deployed a naive Bayes model to claculate the polarity of words.
+In this project, our objective is to extract sentiment form more than 250000 Yelp review data. We build and train a model that can predict rating of reviews based on the text of reviews. Another approach is to look at the polarity of words. We deployed a naive Bayes model to calculate the polarity of words.
 
 
 ## Data format
-The training data that are a series of JSON objects were downloaded from aws s3 bucket, and then converted into a list of dictionaries `data` using  [`ujson`](http://docs.micropython.org/en/latest/library/ujson.html) library. A sample review data format is shown below:
+The training data that are a series of JSON objects were downloaded from `aws s3 bucket`, and then converted into a list of dictionaries `data` using [`ujson`](http://docs.micropython.org/en/latest/library/ujson.html) library. A sample review data format is shown below:
 
-```markdown
+```json
 {
 'votes': {'funny': 0, 'useful': 0, 'cool': 0}, 
 'user_id': 'tYwzsMLMc8juCuIMDAx3dw', 
