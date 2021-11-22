@@ -1941,8 +1941,6 @@ calc_classAccuracy(y_pred, y_test)
 ```python
 df_train.groupby('Category').id.count().plot.bar();
 ```
-
-
     
 ![png](/assets/images/blockbuster/output_197_0.png)
     
