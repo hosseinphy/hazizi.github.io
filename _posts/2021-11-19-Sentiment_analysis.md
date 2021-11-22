@@ -101,9 +101,7 @@ The model is constructed using the following steps:
 3. Calculate the probability of words in the vocabulary, and extract the most polar ones.
 
 
-
-
-### create labels based on the reviews
+### create polar data
 ```python
 # Create the most polar reviews and labels
 pos_data = [row['text'] for row in data if row['stars'] == 5 ]
@@ -111,5 +109,28 @@ neg_data = [row['text'] for row in data if row['stars'] == 1 ]
 polar_data = pos_data + neg_data
 
 labels = ['positive'] * len(pos_data)  + ['negative'] * len(neg_data)
+```
+
+
+### Build pipeline
+
+```python 
+pipe = Pipeline([
+                ('tvec', TfidfVectorizer(
+                                        stop_words=stop_words_lemma,
+                                    )
+                ), 
+                ('mnb', MultinomialNB())
+        ])
+
+ 
+pipe_parameters = {
+    'tvec__min_df' : [0.0001, 0.001, 0.01],
+    'tvec__max_df' : [0.9, 0.99, 0.999],
+    'tvec__max_features' : [3000, 5000]    
+}
+
+gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
+gs.fit(polar_data, labels);
 ```
 
