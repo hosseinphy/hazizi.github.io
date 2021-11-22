@@ -135,7 +135,7 @@ gs.fit(polar_data, labels);
 ```
 
 Two sample positve and negative reviews including 
-```markdown
+```html
     <font color='green'>eccce</font>
 ```    
 <p align="center">
