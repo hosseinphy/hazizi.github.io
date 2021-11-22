@@ -13,7 +13,7 @@ In this project, our objective is to extract sentiment form more than 250000 Yel
 ## Data format
 The training data that are a series of JSON objects were downloaded from `aws s3 bucket`, and then converted into a list of dictionaries `data` using [`ujson`](http://docs.micropython.org/en/latest/library/ujson.html) library. A sample review data format is shown below:
 
-```json
+```python
 {
 'votes': {'funny': 0, 'useful': 0, 'cool': 0}, 
 'user_id': 'tYwzsMLMc8juCuIMDAx3dw', 
