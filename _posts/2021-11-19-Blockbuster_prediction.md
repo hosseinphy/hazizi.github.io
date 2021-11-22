@@ -532,7 +532,7 @@ plt.xlabel('Distribution of log of total gross earnings ');
 
 
     
-![png](output_30_0.png)
+![png](/assets/images/blockbuster/output_30_0.png)
     
 
 
@@ -555,7 +555,7 @@ plt.show()
 
 
     
-![png](output_34_0.png)
+![png](/assets/images/blockbuster/output_34_0.png)
     
 
 
@@ -582,7 +582,7 @@ plt.tight_layout()
 
 
     
-![png](output_37_0.png)
+![png](/assets/images/blockbuster/output_37_0.png)
     
 
 
@@ -605,7 +605,7 @@ plt.tight_layout()
 
 
     
-![png](output_40_0.png)
+![png](/assets/images/blockbuster/output_40_0.png)
     
 
 
@@ -627,7 +627,7 @@ plt.tight_layout()
 
 
     
-![png](output_43_0.png)
+![png](/assets/images/blockbuster/output_43_0.png)
     
 
 
@@ -647,7 +647,7 @@ plt.tight_layout()
 
 
     
-![png](output_46_0.png)
+![png](/assets/images/blockbuster/output_46_0.png)
     
 
 
@@ -815,7 +815,7 @@ plt.tight_layout()
 
 
     
-![png](output_54_0.png)
+![png](/assets/images/blockbuster/output_54_0.png)
     
 
 
@@ -835,7 +835,7 @@ plt.tight_layout()
 
 
     
-![png](output_57_0.png)
+![png](/assets/images/blockbuster/output_57_0.png)
     
 
 
@@ -852,7 +852,7 @@ plt.tight_layout()
 
 
     
-![png](output_59_0.png)
+![png](/assets/images/blockbuster/output_59_0.png)
     
 
 
@@ -880,7 +880,7 @@ ax[1].set_ylabel("Rating");
 
 
     
-![png](output_63_0.png)
+![png](/assets/images/blockbuster/output_63_0.png)
     
 
 
@@ -905,7 +905,7 @@ plt.tight_layout()
 
 
     
-![png](output_66_0.png)
+![png](/assets/images/blockbuster/output_66_0.png)
     
 
 
@@ -994,7 +994,7 @@ plt.tight_layout()
 
 
     
-![png](output_78_0.png)
+![png](/assets/images/blockbuster/output_78_0.png)
     
 
 
@@ -1143,7 +1143,7 @@ sns.pairplot(data=df_train, x_vars=['name_words', 'name_length',
 
 
     
-![png](output_80_0.png)
+![png](/assets/images/blockbuster/output_80_0.png)
     
 
 
@@ -1846,7 +1846,7 @@ sns.jointplot(x="wpred_dispname", y="log_total", data=df_train, kind="reg", line
 
 
     
-![png](output_98_0.png)
+![png](/assets/images/blockbuster/output_98_0.png)
     
 
 
@@ -2167,7 +2167,7 @@ plt.ylabel('log total (Millions of $)', fontsize=12);
 
 
     
-![png](output_130_0.png)
+![png](/assets/images/blockbuster/output_130_0.png)
     
 
 
@@ -2773,7 +2773,7 @@ sns.jointplot(x="wpred_brr", y="log_total", data=df_train, kind="reg", line_kws=
 
 
     
-![png](output_152_0.png)
+![png](/assets/images/blockbuster/output_152_0.png)
     
 
 
@@ -3211,7 +3211,7 @@ plt.show()
 
 
     
-![png](output_187_0.png)
+![png](/assets/images/blockbuster/output_187_0.png)
     
 
 
@@ -3244,7 +3244,7 @@ plt.show()
 
 
     
-![png](output_191_0.png)
+![png](/assets/images/blockbuster/output_191_0.png)
     
 
 
@@ -3288,7 +3288,7 @@ df_train.groupby('Category').id.count().plot.bar();
 
 
     
-![png](output_197_0.png)
+![png](/assets/images/blockbuster/output_197_0.png)
     
 
 
