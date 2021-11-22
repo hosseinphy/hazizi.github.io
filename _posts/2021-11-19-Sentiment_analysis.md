@@ -105,14 +105,11 @@ The model is constructed using the following steps:
 
 ### create labels based on the reviews
 ```python
-# Create the most polar reviews
-polar_data = [row['text'] for row in data if row['stars'] == 5 or row['stars'] == 1] 
+# Create the most polar reviews and labels
+pos_data = [row['text'] for row in data if row['stars'] == 5 ]
+neg_data = [row['text'] for row in data if row['stars'] == 1]
+polar_data = pos_data + neg_data
 
-# Create labels based on the ratings
-def create_labels(doc):
-    tmp = ['positive' if row['stars'] == 5 else 'negative' if row['stars'] == 1 else None for row in doc]
-    return [item for item in tmp if item != None]
-
-labels = create_labels(data)
+labels = ['positive'] * len(pos_data)  + ['negative'] * len(neg_data)
 ```python
 
