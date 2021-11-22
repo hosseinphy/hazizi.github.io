@@ -135,7 +135,7 @@ gs.fit(polar_data, labels);
 ```
 
 <p align="center">
-    <img src="/assets/image/blog/nlp_text.png">
+    <img src="/assets/images/blogs/nlp_text.png">
 </p>    
 
 
