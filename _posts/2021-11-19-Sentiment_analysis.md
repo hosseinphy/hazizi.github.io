@@ -143,4 +143,12 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 ```html
 <mark>Marked text</mark>
 ```
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 ## Conclusion
