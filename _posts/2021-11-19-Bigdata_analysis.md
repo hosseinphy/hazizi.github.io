@@ -16,10 +16,10 @@ The data are download from aws s3 bucket with the following format:
 
 
 ```html
-<row Body="&lt;p&gt;Have you considered using the Joachims\' &lt;a href=&quot;http://svmlight.joachims.org/svm_multiclass.html&quot; <br />
-           rel=&quot;nofollow&quot;&gt;SVM Light\'s MultiClass classifier&lt;/a&gt;? &#10;&lt;a href=&quot;http://svmlight.joachims. <br />
-           org/svm_multiclass.html&quot;rel=&quot;nofollow&quot;&gt;http://svmlight.joachims.org/svm_multiclass.html&lt;/a&gt;&lt;  <br />
-           /p&gt;&#10;"CommentCount="0" CreationDate="2012-08-02T19:15:04.647" Id="33580" LastActivityDate="2012-08-02T19:15:04.647" 
+<row Body="&lt;p&gt;Have you considered using the Joachims\' &lt;a href=&quot;http://svmlight.joachims.org/svm_multiclass.html&quot;   
+           rel=&quot;nofollow&quot;&gt;SVM Light\'s MultiClass classifier&lt;/a&gt;? &#10;&lt;a href=&quot;http://svmlight.joachims.   
+           org/svm_multiclass.html&quot;rel=&quot;nofollow&quot;&gt;http://svmlight.joachims.org/svm_multiclass.html&lt;/a&gt;&lt;    
+           /p&gt;&#10;"CommentCount="0" CreationDate="2012-08-02T19:15:04.647" Id="33580" LastActivityDate="2012-08-02T19:15:04.647".  
             OwnerUserId="12060" ParentId="21465" PostTypeId="2" Score="1" /> 
 ```
 
