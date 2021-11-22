@@ -5,8 +5,10 @@ date: 2021-11-19 12:00:00 -0000
 categories: big data spark  machine learning   
 excerpt: Perform data analysis and machine learning on large messy data sets.
 ---
+# Summary
+In this project have parsed, cleaned, and processed a 10 GB set of XML files of user actions on the Stack Overflow website.
+By performing SQL-like queries on Spark RDDs and DataFrames, we have answered questions about user behavior to predict the long-term behavior of new users. We have trained a word2vec model and a classification model on tags associated with questions. These machine learning pipeline were implemented using Spark ML.
 
-In this project, we performed  data manipulation, analysis, and machine learning on the Stack Overflow data set. 
 
 ## Data format & parsing
 The anonymized data are download from aws s3 bucket with the following format:
@@ -36,8 +38,6 @@ def get_posts_data(fpath):
     return rdd_clean_xmls.map(lambda el: get_attributes(el, atrrib_keys))
 ```
 
- Using this behavior, they have answered questions about user behavior to predict the long-term behavior of new user
-
 ## Data analysis
 By performing SQL-like queries on Spark DataFrames, we can answer questions about user beahviour such as:
 <ul> 
@@ -48,9 +48,13 @@ By performing SQL-like queries on Spark DataFrames, we can answer questions abou
 </ul>
 These patterns in data can help us to predict the *long-term* behaviour of new users.
 
-### Predict question tags
 
-We'd intend to predict the tags of a question from its body text. To this end, we first find the ten most common tags for questions in the training data set (the tags have been removed from the test set). Then train a learner to predict from the text of the question (the Body attribute) if it should have one of those ten tags in it - you will need to process the question text with NLP techniques such as splitting the text into tokens.
+## Building ML model
+
+We'd intend to predict the tags of a question from its body text. We tackled this problem in three phase:
+1. Find the ten most common tags for questions in the training data set (the tags have been removed from the test set). 
+2. Then train a learner to predict from the text of the question (the Body attribute) if it should have one of those ten tags in it - addititional NLP techniques were used to process the question text.
+3. Finally, we built a `pipeline` that takes in multiple *stages* of `Transformer` and `Estimator`. The hyperparameters tuning is done by creating a cross validator object that takes the `pipline` as the estimator and its paramters. These constructs are very useful for any sort of ML task.
 
 ```python
 paramGrid = (ParamGridBuilder() 
@@ -67,5 +71,5 @@ crossval = CrossValidator(estimator=pipeline,
                           seed=17)
 
 cvModel = crossval.fit(train)
-better_predictions = cvModel.transform(test)
+predictions = cvModel.transform(test)
 ```
