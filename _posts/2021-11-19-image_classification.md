@@ -11,7 +11,7 @@ In this project, we classify series of images into ten classes using multi-layer
 
 
 ## Data format
-We used `CIFAR-10` data set that consists of 60,000 images, each 32\times32 color pixels, each belonging to one of ten classes. We used 50,000 images for traing and 10,000 for validation of our models. 
+We used `CIFAR-10` data set that consists of 60,000 images, each 32x32 color pixels, each belonging to one of ten classes. We used 50,000 images for traing and 10,000 for validation of our models. 
 
 <br>
  
@@ -32,9 +32,10 @@ To build a classification model using keras API the following steps were taken:
   inception = tf.keras.applications.inception_v3.InceptionV3(include_top=True, input_shape=(299, 299, 3))
   inception = tf.keras.Model([inception.input], [inception.layers[-2].output]) # manually discard prediction layer
   ```
-2. Upscale our images from $32\times32$ to `inception` native image shape: $299\times299$, using `tf.image.resize`
+2. Upscale our images from 32x32 to `inception` native image shape: 299x299, using `tf.image.resize`
 
 3. Feed the resized image layer to inception model and save the calculated latent vectores to disk. Since we are not interested in re-training the inception mode, we freez all the layers of the model.
+
 
 ```python
  for layer in inception.layers:
@@ -56,7 +57,8 @@ Total params: 21,802,784
 Trainable params: 0
 Non-trainable params: 21,802,784
 ```
-4. Finally, we load features as an input to our model with a classification layer
+
+4. Finally, we load features as an input to our model with a classification layer to make predictions
 
 ```markdown
 Epoch 1/10
@@ -81,7 +83,7 @@ Epoch 10/10
 834/834 [==============================] - 2s 2ms/step - loss: 0.2949 - accuracy: 0.8935
 ```
  
-The image below shows the results of our classification model predeiction for few images:
+The picture below shows the results of our classification model predictions for few images:
 
 <div align="center">
   <img src="/assets/images/blogs/pred_labels.png" width="500px" height="200" alt="Photo of a lighthouse.">
