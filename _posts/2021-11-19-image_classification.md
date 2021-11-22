@@ -27,7 +27,22 @@ To build a classification model using keras API the following steps were taken:
   ```
 2. Upscale our images from $32\times32$ to `inception` native image shape: $299\times299$, using `tf.image.resize`
 
-```markdown
+3. Feed the resized image layer to inception model and save the calculated latent vectores to disk
+ 
+ 
+ 
+ ```python
+ # first freez all inception layers
+for layer in inception.layers:
+    layer.trainable = False  
+
+# inception model without classifier
+base_model = inception(resized_layer)
+
+feature_model = keras.models.Model(inputs=input_layer, outputs=base_model)
+ ```
+ 
+```python
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
