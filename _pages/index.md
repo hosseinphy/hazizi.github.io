@@ -71,7 +71,7 @@ As a data scientist I have hands on experience with:
 
 
 <br>
-Below are some of my selected projects. [Click here](/_pages/blog_posts.md) to see other projects. 
+Below are some of my selected projects. [Click here](/archive/) to see other projects. 
 
 Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
