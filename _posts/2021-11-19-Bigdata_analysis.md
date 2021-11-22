@@ -2,12 +2,12 @@
 layout: single
 title: "Big Data Analysis"
 date: 2021-11-19 12:00:00 -0000
-categories: big data spark  machine learning   
+categories: big data spark machine learning   
 excerpt: Perform data analysis and machine learning on large messy data sets.
 ---
 ## Summary
 In this project have parsed, cleaned, and processed a 10 GB set of XML files of user actions on the Stack Overflow website.
-By performing SQL-like queries on Spark RDDs and DataFrames, we have answered questions about user behavior to predict the long-term behavior of new users. We have trained a word2vec model and a classification model on tags associated with questions. These machine learning pipeline were implemented using Spark ML.
+By performing SQL-like queries on Spark RDDs and DataFrames, we have answered questions about user behavior to predict the long-term behavior of new users. We have trained a word2vec model and a classification model on tags associated with questions. These machine learning pipelines were implemented using Spark ML.
 
 
 ## Data format & parsing
@@ -27,9 +27,7 @@ from lxml import etree
 file_posts_stats = "spark-stats-data/allPosts/*"
 
 def get_posts_data(fpath):
-
-    # cleaned xmls
-    rdd_clean_xmls = sc.textFile(fpath)\
+    rdd_xmls = sc.textFile(fpath)\
              .filter(lambda row: '<row' in row) \
              .map(parse_row)\
              .filter(lambda x: x is not None)
@@ -39,22 +37,21 @@ def get_posts_data(fpath):
 ```
 
 ## Data analysis
-By performing SQL-like queries on Spark DataFrames, we can answer questions about user beahviour such as:
+By performing SQL-like queries on Spark DataFrames, we can answer following questions about user behaviours to predict the *long-term* behaviour of new users
+
 <ul> 
   <li>Relationship between the number of times a post was favorited (the `FavoriteCount`) and the `Score`.</li>
   <li>Correlation between a user's reputation and the kind of posts they make.</li>    
   <li>Identify "veterans" (user to remain active on the site over a long period of time) and compare their characterstics with  "brief   
       users".</li>  
 </ul>
-These patterns in data can help us to predict the *long-term* behaviour of new users.
 
 
 ## Building ML model
-
-We'd intend to predict the tags of a question from its body text. We tackled this problem in three phase:
+We'd intend to predict the tags of a question from its body text. We tackled this problem in three phases:
 1. Find the ten most common tags for questions in the training data set (the tags have been removed from the test set). 
-2. Then train a learner to predict from the text of the question (the Body attribute) if it should have one of those ten tags in it - addititional NLP techniques were used to process the question text.
-3. Finally, we built a `pipeline` that takes in multiple *stages* of `Transformer` and `Estimator`. The hyperparameters tuning is done by creating a cross validator object that takes the `pipline` as the estimator and its paramters. These constructs are very useful for any sort of ML task.
+2. Then train a learner to predict from the text of the question (the Body attribute) if it should have one of those ten tags in it - additional NLP techniques were used to process the question text.
+3. Finally, we built a `pipeline` that takes in multiple *stages* of `Transformer` and `Estimator`. The hyperparameters tuning is done by creating a cross validator object that takes the `pipeline` as the estimator and its parameters. 
 
 ```python
 paramGrid = (ParamGridBuilder() 
