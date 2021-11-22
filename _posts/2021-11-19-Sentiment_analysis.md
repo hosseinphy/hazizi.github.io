@@ -151,6 +151,6 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 @@ text in purple (and bold)@@
 ```
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 
 ## Conclusion
