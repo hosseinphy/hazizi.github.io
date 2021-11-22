@@ -348,19 +348,6 @@ df_score.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -642,19 +629,6 @@ df_train[df_train.source == 'Based on Theme Park Ride']
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -928,19 +902,6 @@ df_train[df_train.name_words == 9]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1602,27 +1563,6 @@ eli5.show_prediction(clf, doc=df_train['display_name'].values[80], vec=vectorize
 
 
 
-    <style>
-    table.eli5-weights tr:hover {
-        filter: brightness(85%);
-    }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1787,18 +1727,6 @@ eli5.show_prediction(clf, doc=df_score['display_name'].values[13], vec=vectorize
 ```
 
     score for a display name 'Rise of The Guardians' in df_score:
-
-
-
-
-
-
-    <style>
-    table.eli5-weights tr:hover {
-        filter: brightness(85%);
-    }
-</style>
-
 
 
 
@@ -2188,15 +2116,6 @@ eli5.show_weights(clf, vec=vectorizer, top=20, feature_filter=lambda x: x != '<B
 
 
 
-    <style>
-    table.eli5-weights tr:hover {
-        filter: brightness(85%);
-    }
-</style>
-
-
-
-
 
 
 
@@ -2521,24 +2440,6 @@ top features
 ```python
 eli5.show_prediction(clf, doc=Xtrain_brr.values[19], vec=vectorizer)
 ```
-
-
-
-
-
-    <style>
-    table.eli5-weights tr:hover {
-        filter: brightness(85%);
-    }
-</style>
-
-
-
-
-
-
-
-
 
 
 
