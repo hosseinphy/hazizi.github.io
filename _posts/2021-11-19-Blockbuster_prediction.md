@@ -569,13 +569,9 @@ ax[1].set_title("Meadian total by creative type  (milions $)", size=15)
 ax[1].set_ylabel("Creative type")
 plt.tight_layout()
 ```
-
-
     
 ![png](/assets/images/blockbuster/output_43_0.png)
     
-
-
 Different creative type seems to have an effect on the revenue.
 
 ### 2.6 Source
@@ -602,9 +598,6 @@ The plots suggest that the movies with certain sources tend to have higher reven
 ```python
 df_train.groupby('source')['total'].median().sort_values(ascending=False)
 ```
-
-
-
 
     source
     Based on Theme Park Ride               1002.5
