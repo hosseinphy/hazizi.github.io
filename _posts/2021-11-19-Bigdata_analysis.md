@@ -13,7 +13,7 @@ In this project, we performed  data manipulation, analysis, and machine learning
 ### Data 
 The data are download from aws s3 bucket with the following format:
 
-```html
+```markdown
 <row Body="&lt;p&gt;I always validate my web pages, and I recommend you do the same BUT many large company websites DO NOT and cannot validate because the 
 importance of the website looking exactly the same on all systems requires rules to be broken. &lt;/p&gt;&#10;&#10;&lt;p&gt;In general, 
 valid websites help yourpage look good even on odd configurations (like cell phones) so you should always at least try to make it validate.&lt;/p&gt;&#10;"
