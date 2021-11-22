@@ -134,7 +134,10 @@ gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
 gs.fit(polar_data, labels);
 ```
 
-Two sample positve and negative reviews including <p><font color='green'>eccce</font></p>
+Two sample positve and negative reviews including 
+```markdown
+    <font color='green'>eccce</font>
+```    
 <p align="center">
     <img src="/assets/images/blogs/nlp_text.png">
 </p>    
