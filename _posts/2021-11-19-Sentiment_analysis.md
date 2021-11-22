@@ -134,25 +134,15 @@ gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
 gs.fit(polar_data, labels);
 ```
 
-Two sample positve and negative reviews including 
-<font color='red'> Here </font>  
+Two sample positve and negative reviews including top-fifty polarized positive and negative words, respectively.
 
 <p align="center">
     <img src="/assets/images/blogs/nlp_text.png">
 </p>    
 
 
-
-
 <!-- ![](https://img.shields.io/static/v1?label=&message=awesome&color=green&font_size=4) service they had an ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) drink called the ginger beast when we came to eat here we asked for it it s no longer on the menu they stopped serving it a few months ago according to our waitress but she asked the barkeep and the bar was willing to make it for us ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) service the food here is top ![](https://img.shields.io/static/v1?label=&message=notch&color=green) fresh and wow yummo the oyster tasting shooters are great the shibuya roll is great the shibaki tuna tartare is great the pork crisp is ![](https://img.shields.io/static/v1?label=&message=yummy&color=green) and the black cod wow ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) and did i mention how good the shibuya roll is it was so good that we had to order another one ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) place inside the mgm grand
  -->
-
-
-
-
-
-
-
 
 
 ## Conclusion
