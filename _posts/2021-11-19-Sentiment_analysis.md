@@ -25,22 +25,23 @@ The training data that are a series of JSON objects were downloaded from `aws s3
 'business_id': 'uGykseHzyS5xAMWoN6YUqA'
 }
 ```
+The target labels (i.e., *stars*) are pulled from data and saved in a separate list.
 
-The target labels (i.e. *stars*) are pulled from data and saved in a separate list.
 
 ## Data preprocessing
-To slightly clean up the text, we remove special characters: 
+We slightly cleaned up the text by removing special characters:
+
 ```python
 def pre_processor(doc):
     doc = re.sub("(\\W)+"," ",doc)
     return doc
 ```
-This function can be provided as a paramter of TfidfVectorizer
+This function is provided as a custom preprocessing parameter of TfidfVectorizer
 
 ## Feature engineering
-  - Stop words, tokenization and Lemmatization are done using spaCy, as shown in the snippet below.   
-   - We considered apperence of both single words and pairs of consecutive words (bi-grams).
-   - Using the __tf-idf__ values of words or n-grams.
+- Stop words, tokenization and Lemmatization are done using spaCy, as shown in the snippet below.   
+- We considered appetence of both single words and pairs of consecutive words (bi-grams).
+- Using the `__tf-idf__` values of words or n-grams.
 
 ```python
 from spacy.lang.en.stop_words import STOP_WORDS
@@ -52,16 +53,17 @@ def tokenize_lemma(text):
 stop_words_lemma = set(tokenize_lemma(' '.join(STOP_WORDS)))
 ```
 
+
 ## Bigram_model
 
-### Hyperparamters
-The selected hyperparamters for this model are those that control the vocabulary in the tokenization step (`max_features`, `min_df`, `max_df`)
-and the regularization of the regression estimator (`alpha`). To determine these paramters we used [`GridSearchCV`](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV). 
+### Hyperparameters
+The selected hyperparameters for this model are those that control the vocabulary in the tokenization step (`max_features`, `min_df`, `max_df`)
+and the regularization of the regression estimator (`alpha`). To determine these parameters we used [`GridSearchCV`](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV). 
 
 ### Data transformation 
-Since we aimed to predict star values of reviews based on their text, we built a custom scikit-learn transformer (`ColumnSelectTransformer`) that returns a list of text of all reviews from all records.
+Since we aimed to predict star values of reviews based on their text, we built a custom scikit-learn transformer (`ColumnSelectTransformer`) that returns a list of review’s text from all records.
 
-The snippet below shows a pipeline that will transform the data from records all the way to predictions, where the hyperparamter tuning is only operating on an `Ridge` estimator that was fed to `GridSearchCV`.
+The snippet below shows a pipeline that will transform the data from records all the way to predictions, where the hyperparameter tuning is only operating on an `Ridge` estimator that was fed to `GridSearchCV`.
 
 ```python
 pipe_feature = Pipeline([
@@ -84,17 +86,16 @@ pipe_lr = Pipeline([('feature', pipe_feature), ('lr_gs', gs)])
 
 pipe_lr.fit(data, stars);
 ```
-The estimated R<sup>2</sup> =  0.64 and RMSE =  0.79
+The estimated R<sup>2</sup> = 0.64 and RMSE =  0.79
 
 
 ## Word polarity
-Another apprpach to derive some insights from our data is the Polarity Analysis which can offer a simplistic view of the sentiment information,
+Another approach to derive some insights from our data is the Polarity Analysis which can offer a simplistic view of the sentiment information,
 based on the polarity of the words in a given sentence. The aim of this model is to identify the most "polarizing words" in the corpus of reviews that strongly signal positive (five-star), or negative (one-star) reviews. 
 
-### Model
+### Building a model
 We employed [naive Bayes model](https://scikit-learn.org/stable/modules/naive_bayes.html#) to calculate a **polarity score** for each word $w$,
 $\textrm{polarity}(w) = \log\left(\frac{Pr(w\ |\ \textrm{positive})}{Pr(w\ |\ \textrm{negative})}\right).$ Naive Bayes models can offer some major advantages, including their higher explicability compared to more complex models, they are easy to train, and a parallelizable training process.
-
 
 The model is constructed using the following steps:
 1. Isolate the reviews with highest and lowest stars, which should contain the most polarizing words.
@@ -102,7 +103,8 @@ The model is constructed using the following steps:
 3. Calculate the probability of words in the vocabulary, and extract the most polar ones.
 
 
-### create polar data
+### Create polar data
+
 ```python
 # Create the most polar reviews and labels
 pos_data = [row['text'] for row in data if row['stars'] == 5 ]
@@ -113,7 +115,7 @@ labels = ['positive'] * len(pos_data)  + ['negative'] * len(neg_data)
 ```
 
 
-### Build pipeline
+### Build a pipeline
 
 ```python 
 pipe = Pipeline([
@@ -135,15 +137,8 @@ gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
 gs.fit(polar_data, labels);
 ```
 
-Two sample positve and negative reviews including top-fifty polarized positive and negative words, respectively.
+Two positve and negative reviews below contain some of top-fifty polarized positive and negative words, respectively.
 
 <p align="center">
     <img src="/assets/images/blogs/nlp_text.png">
 </p>    
-
-
-<!-- ![](https://img.shields.io/static/v1?label=&message=awesome&color=green&font_size=4) service they had an ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) drink called the ginger beast when we came to eat here we asked for it it s no longer on the menu they stopped serving it a few months ago according to our waitress but she asked the barkeep and the bar was willing to make it for us ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) service the food here is top ![](https://img.shields.io/static/v1?label=&message=notch&color=green) fresh and wow yummo the oyster tasting shooters are great the shibuya roll is great the shibaki tuna tartare is great the pork crisp is ![](https://img.shields.io/static/v1?label=&message=yummy&color=green) and the black cod wow ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) and did i mention how good the shibuya roll is it was so good that we had to order another one ![](https://img.shields.io/static/v1?label=&message=awesome&color=green) place inside the mgm grand
- -->
-
-
-## Conclusion
