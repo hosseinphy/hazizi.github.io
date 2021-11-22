@@ -151,6 +151,10 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 @@ text in purple (and bold)@@
 ```
 
+
+![](https://img.shields.io/static/v1?label=&message=Ааи&color=green)
+
+
 <div class="text-white bg-blue mb-2">
   .text-white on .bg-blue
 </div>
