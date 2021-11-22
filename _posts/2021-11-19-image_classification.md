@@ -27,22 +27,15 @@ To build a classification model using keras API the following steps were taken:
   ```
 2. Upscale our images from $32\times32$ to `inception` native image shape: $299\times299$, using `tf.image.resize`
 
-3. Feed the resized image layer to inception model and save the calculated latent vectores to disk
- 
- 
- 
- ```python
- # first freez all inception layers
-for layer in inception.layers:
-    layer.trainable = False  
+3. Feed the resized image layer to inception model and save the calculated latent vectores to disk. Since we are not interested in re-training the inception mode, we freez all the layers of the model.
 
-# inception model without classifier
-base_model = inception(resized_layer)
-
-feature_model = keras.models.Model(inputs=input_layer, outputs=base_model)
- ```
- 
 ```python
+ for layer in inception.layers:
+    layer.trainable = False  
+``` 
+The summary of latent vector calculation model is shown in the snippet below:
+
+```markdown
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -56,15 +49,32 @@ Total params: 21,802,784
 Trainable params: 0
 Non-trainable params: 21,802,784
 ```
+4. Finally, we load features as an input to our model with a classification layer
+
+```markdown
+Epoch 1/10
+834/834 [==============================] - 1s 2ms/step - loss: 0.5941 - accuracy: 0.7976
+Epoch 2/10
+834/834 [==============================] - 1s 2ms/step - loss: 0.4592 - accuracy: 0.8406
+Epoch 3/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.4161 - accuracy: 0.8552
+Epoch 4/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.3979 - accuracy: 0.8605
+Epoch 5/10
+834/834 [==============================] - 1s 2ms/step - loss: 0.3686 - accuracy: 0.8704
+Epoch 6/10
+834/834 [==============================] - 1s 2ms/step - loss: 0.3533 - accuracy: 0.8754
+Epoch 7/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.3348 - accuracy: 0.8822
+Epoch 8/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.3225 - accuracy: 0.8843
+Epoch 9/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.3077 - accuracy: 0.8901
+Epoch 10/10
+834/834 [==============================] - 2s 2ms/step - loss: 0.2949 - accuracy: 0.8935
+```
  
-
-
-1. ith a smaller data set, such as this, it can be more efficient to pre-calculate the *latent vectors* that are the output of the pre-trained network.  These can be stored and used as input for training a smaller, separate network to make the predictions.  We recommend this approach for this miniproject.
-
-Images should be fed to the `inception` network and then vectorized (you might want to refer to the `TF_DeepDream.ipynb` notebook).
-
-
-We used tranfer learning from the pre-trained *Inception* model. During the traing all the layers of the pre-trained model are frozen (will not train). In other words, the pre-trained model is utilized as feature extractor preprocessor.
+The image below shows the results of our classification model predeiction for few images:
 
 <div align="center">
   <img src="/assets/images/blogs/pred_labels.png" width="500px" height="200" alt="Photo of a lighthouse.">
