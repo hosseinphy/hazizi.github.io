@@ -15,7 +15,7 @@ projects_row1:
     caption: "Photo by Tima Miroshnichenko from Pexels"
     alt: "Box Office Revenue Predictor"
     title: "Box Office Revenue Predictor"
-    excerpt: "The classifier predicts a movie box-office revenue."
+    excerpt: "The classifier predicts movie box-office revenue."
     btn_label: "Visit"
     btn_class: "btn--primary"
     url: "/projects/Hollywood_bluckbuster_github_portfolio.html" 
