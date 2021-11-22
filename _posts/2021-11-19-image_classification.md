@@ -2,7 +2,7 @@
 layout: single
 title: "Image Classification"
 date: 2021-11-19 12:00:00 -0000
-categories: neural network (nn) Convolutional nets  transfer learning  
+categories: Neural-Network, CNN, Transfer-Learning Image-classification TensorFlow Keras  
 excerpt: Classifying images using series of neural networks. 
 ---
 
