@@ -134,3 +134,4 @@ gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
 gs.fit(polar_data, labels);
 ```
 
+## Conclusion
