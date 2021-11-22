@@ -134,8 +134,10 @@ gs = GridSearchCV(pipe, pipe_parameters, cv=2, n_jobs=-1)
 gs.fit(polar_data, labels);
 ```
 
-```markdown
+```mark
 this is the worst nail salon in the city i ve been twice and twice the nail chick different one each time made me bleed this time she destroyed my cuticles i couldn t even wear closed toe shoes without feeling pain and 40 bucks for a pedi that s way too much and she did a \x1b[41m\x1b[37mhorrible\x1b[0m job the polish wasn t even put on neatly and correctly and she was \x1b[41m\x1b[37mrude\x1b[0m as hell i really wanted to kick her while she was down there mangling my \x1b[41m\x1b[37mpoor\x1b[0m feet up'
 ```
 
+
+<span style="background-color: #FFFF00">awesome</span> service they had an <span style="background-color: #FFFF00">awesome</span> drink called the ginger beast when we came to eat here we asked for it it s no longer on the menu they stopped serving it a few months ago according to our waitress but she asked the barkeep and the bar was willing to make it for us <span style="background-color: #FFFF00">awesome</span> service the food here is top notch fresh and wow yummo the oyster tasting shooters are great the shibuya roll is great the shibaki tuna tartare is great the pork crisp is yummy and the black cod wow <span style="background-color: #FFFF00">awesome</span> and did i mention how good the shibuya roll is it was so good that we had to order another one <span style="background-color: #FFFF00">awesome</span> place inside the mgm grand
 ## Conclusion
