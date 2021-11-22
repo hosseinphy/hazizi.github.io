@@ -152,7 +152,7 @@ this is the worst nail salon in the city i ve been twice and twice the nail chic
 ```
 
 
-![](https://img.shields.io/static/v1?label=&message=Ааи&color=green)
+![](https://img.shields.io/static/v1?label=&message=awesome&color=red)
 
 
 <div class="text-white bg-blue mb-2">
