@@ -1,13 +1,14 @@
 ---
 layout: single
-title: "Simulation of heat & mass transfer in particulate fuel combustion systems (forest fire model)."
-excerpt: Research Associate McGill Sep 2017 - January 2018
+title: "Heat-Mass Transfer Simulation"
+date: 2021-11-19 12:00:00 -0000
+categories: heat-mass transfer 
+excerpt: Simulation of heat & mass transfer in particulate fuel combustion systems (forest fire model).
 ---
 
-<p style="font-size:25px">
-  In this project we created simulation of heat-mass transfer process to assist in design new porous materials, with potential use in energy-efficient products.
-  The results of this specific system also can be applied to combustion flames in a suspension of metal particles and more general case of interface propagation in heterogeneous excitable media which has a vast range of applications from biology to  for example in biology, the dynamics of calcium waves released from spatially random distributed sources.
-</p>  
+## Summary
+In this project we created simulation of heat-mass transfer process to assist in design new porous materials, with potential use in energy-efficient products.
+The results of this specific system also can be applied to combustion flames in a suspension of metal particles and more general case of interface propagation in heterogeneous excitable media which has a vast range of applications from biology to  for example in biology, the dynamics of calcium waves released from spatially random distributed sources.
 
 
 <br clear="down"/>
