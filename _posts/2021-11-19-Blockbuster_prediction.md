@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Big Data Analysis"
+title: "Box Office Revenue Predictor"
 date: 2021-11-19 12:00:00 -0000
-categories: Big_Data Spark NLP   
-excerpt: Perform data analysis and machine learning on large messy data sets.
+categories: Classification Spark NLP   
+<!-- excerpt: Perform data analysis and machine learning on large messy data sets. -->
 ---
 # Hollywood Blockbuster Movie Revenue
 
@@ -18,8 +18,8 @@ The detailed procedure of building these machine learning (ML) models will be ex
 - Build & deploy ML model 
 - Conclusion
 
-## Import libraries
 
+## Import libraries
 
 ```python
 import numpy as np # linear algebra
