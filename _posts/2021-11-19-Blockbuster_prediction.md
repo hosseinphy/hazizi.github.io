@@ -2,7 +2,7 @@
 layout: single
 title: "Box Office Revenue Predictor"
 date: 2021-11-19 12:00:00 -0000
-categories: Classification Spark NLP   
+categories: Classification   
 <!-- excerpt: Perform data analysis and machine learning on large messy data sets. -->
 ---
 # Hollywood Blockbuster Movie Revenue
