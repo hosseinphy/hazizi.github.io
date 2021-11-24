@@ -1,17 +1,22 @@
-# <em>E-com</em> Fitness web application 
-#### Capstone project (The Data Incubator Fellowship) - August 2021
+---
+layout: single
+title: "Forecasting Online Sales"
+date: 2021-11-19 12:00:00 -0000
+categories: Neural-Network, CNN, Transfer-Learning Image-classification TensorFlow Keras  
+excerpt: A web-based application designed to forecast fitness product sales using data extracted from social media and time-series analysis of historical data. 
+---
 
-<p><em>E-com Fitness</em> is a web-based application designed to forecast fitness product sales using data extracted from social media and time-series analysis of historical data</p>
+## Summary
+<em>E-com Fitness</em> is a web-based application designed to forecast fitness product sales using data extracted from social media and time-series analysis of historical data.
 
-_______
 
-### Objective
+<!-- ### Objective
 - Create a web-based application to forecast product sales using data extracted from social media and time-series analysis
      - buyers habit trends
      - Outputs potential profit (average predicted sales)     
      - Provides negative feedback, modify sales strategies to gain customer retention
      - product success or failure
-
+ -->
 ### Methodology
 
 1. Data extraction:       
