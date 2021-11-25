@@ -26,5 +26,5 @@ Handling blocking and scrape from ajax websites
 - Train and benchmark a Decision-Tree based algorithm  
 
 ## Delivering Model:
-- Deploying on Heroku using Flask. Click <a href="https://ecomfit.herokuapp.com"><img  src="/images/heroku.svg" width="30" height="20"></a> to visit the deployed app.
+- Deploying on Heroku using Flask. Click <a href="https://ecomfit.herokuapp.com"><img  src="/assets/images/heroku.svg" width="30" height="20"></a> to visit the deployed app.
 
