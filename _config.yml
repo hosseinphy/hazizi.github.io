@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Leveraging Big Data"
+title                    : #"Leveraging Big Data"
 title_separator          : "-"
 subtitle                 : Hossein Azizi
 name                     : "Hossein Azizi"
