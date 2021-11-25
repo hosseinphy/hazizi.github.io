@@ -10,7 +10,7 @@ header:
 #excerpt: "I am a full-stack developer based in the US. I enjoy the intersection of data science and full-stack."
 
 
-projects_row1:
+<!-- projects_row1:
   - image_path: assets/images/pexels-tima-miroshnichenko-7991579-2.jpg
     caption: "Photo by Tima Miroshnichenko from Pexels"
     alt: "Box Office Revenue Predictor"
@@ -51,7 +51,7 @@ projects_row2:
     btn_class: "btn--primary"
     url: "/projects/laser"
 ---
-
+ -->
 <link rel="stylesheet" href="/assets/styles/projects.css">
 
 ## About Me:
@@ -66,8 +66,7 @@ As a data scientist I have hands on experience with:
 </ul>
 
 
-<br>
-Below are some of my selected projects. [Click here](/archive/) to see other projects. 
+Some of my selected projects. [Click here](/archive/) to see other projects. 
 
 Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
