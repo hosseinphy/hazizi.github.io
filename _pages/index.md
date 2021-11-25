@@ -71,7 +71,7 @@ Some of my selected projects. [Click here](/archive/) to see other projects.
 Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
 
-<!-- ## Projects
+## Projects
 {% include project_row id="projects_row1" %}
 {% include project_row id="projects_row2" %}
- -->
+
