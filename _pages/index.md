@@ -66,12 +66,14 @@ As a data scientist I have hands on experience with:
 </ul>
 
 
-Some of my selected projects. [Click here](/archive/) to see other projects. 
+Visit some of my selected projects [here](/archive/).
 
-Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
+<br><br>
+## Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
 
-## Projects
+<!-- ## Projects
 {% include project_row id="projects_row1" %}
 {% include project_row id="projects_row2" %}
 
+ -->
