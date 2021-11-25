@@ -1118,7 +1118,7 @@ print("Best alpha paramter: {}, and regression score:{}".format(clf.alpha_, clf.
 ```python
 eli5.show_weights(clf, vec=vectorizer, top=30, feature_filter=lambda x: x != '<BIAS>')
 ```
-d```python
+```python
 # df_train[df_train.display_name.str.contains('Captain', na=False)]
 ```
 
