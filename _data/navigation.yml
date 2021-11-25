@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Home"
+    url: /_pages/index.md
   - title: "Projects"
     url: /archive/
   - title: "Resume"
