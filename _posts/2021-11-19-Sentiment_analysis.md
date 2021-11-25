@@ -95,8 +95,7 @@ Another approach to derive some insights from our data is the Polarity Analysis 
 based on the polarity of the words in a given sentence. The aim of this model is to identify the most "polarizing words" in the corpus of reviews that strongly signal positive (five-star), or negative (one-star) reviews. 
 
 ### Building a model
-We employed [naive Bayes model](https://scikit-learn.org/stable/modules/naive_bayes.html#) to calculate a **polarity score** for each word $w$,
-$\textrm{polarity}(w) = \log\left(\frac{Pr(w\ |\ \textrm{positive})}{Pr(w\ |\ \textrm{negative})}\right).$ Naive Bayes models can offer some major advantages, including their higher explicability compared to more complex models, they are easy to train, and a parallelizable training process.
+We employed [naive Bayes model](https://scikit-learn.org/stable/modules/naive_bayes.html#) to calculate a **polarity score** for each word. Naive Bayes models can offer some major advantages, including their higher explicability compared to more complex models, they are easy to train, and a parallelizable training process.
 
 The model is constructed using the following steps:
 1. Isolate the reviews with highest and lowest stars, which should contain the most polarizing words.
