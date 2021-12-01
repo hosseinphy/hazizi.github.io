@@ -86,5 +86,5 @@ Epoch 10/10
 The picture below shows the results of our classification model predictions for few images:
 
 <div align="center">
-  <img src="/assets/images/blogs/pred_labels.png" width="500px" height="200" alt="Photo of a lighthouse.">
+  <img src="/assets/images/blogs/pred_labels.png" width="500px" height="200">
 </div>
