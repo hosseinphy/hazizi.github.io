@@ -55,7 +55,7 @@ projects_row2:
 <link rel="stylesheet" href="/assets/styles/projects.css">
 
 ## About Me:
-I am a data professional based at Montreal. I have 7 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. 
+I am a data professional based at Hamilton, ON. I have 10 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. 
 
 As a data scientist I have hands on experience with: 
 <ul>
@@ -69,7 +69,7 @@ As a data scientist I have hands on experience with:
 Visit some of my selected projects [here](/archive/).
 
 <br><br>
-## Hiring? please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
+## Please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
 
 
 <!-- ## Projects
