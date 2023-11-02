@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Projects"
     url: /archive/
-  - title: "Resume"
-    url: /pdf/hossein_azizi_resume.pdf
+#  - title: "Resume"
+#    url: /pdf/hossein_azizi_resume.pdf
 #   - title: "About Me"
 #     url: /archive/
     
