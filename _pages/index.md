@@ -69,7 +69,7 @@ As a data scientist I have hands on experience with:
 Visit some of my selected projects [here](/archive/).
 
 <br><br>
-## Please reach out to me on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or just [email me](mailto:hosseinphy@gmail.com).
+## To reach out send me a message on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or [email me](mailto:hosseinphy@gmail.com).
 
 
 <!-- ## Projects
