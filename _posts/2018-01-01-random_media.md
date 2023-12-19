@@ -8,7 +8,7 @@ excerpt: Simulation of heat & mass transfer in particulate fuel combustion syste
 
 ## Summary
 In this project we created simulation of heat-mass transfer process to assist in design new porous materials, with potential use in energy-efficient products.
-The results of this specific system also can be applied to combustion flames in a suspension of metal particles and more general case of interface propagation in heterogeneous excitable media which has a vast range of applications from biology to  for example in biology, the dynamics of calcium waves released from spatially random distributed sources.
+The results of this specific system also can be applied to combustion flames in a suspension of metal particles and more general case of interface propagation in heterogeneous excitable media which has a vast range of applications from materials science to biology. For example, the dynamics of calcium waves released from spatially random distributed sources.
 
 
 <br clear="down"/>
