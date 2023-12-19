@@ -8,7 +8,7 @@ excerpt: Perform data analysis and machine learning on large messy data sets.
 
 ## Summary
 In this project have parsed, cleaned, and processed a 10 GB set of XML files of user actions on the Stack Overflow website.
-By performing SQL-like queries on Spark RDDs and DataFrames, we have answered questions about user behavior to predict the long-term behavior of new users. We have trained a word2vec model and a classification model on tags associated with questions. These machine learning pipelines were implemented using Spark ML.
+By performing SQL-like queries on Spark RDDs and DataFrames, we have answered questions about user behavior to predict the long-term behavior of new users. I have trained a word2vec model and a classification model on tags associated with questions. These machine learning pipelines were implemented using Spark ML.
 
 
 ## Data format & parsing
