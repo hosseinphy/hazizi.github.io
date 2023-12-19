@@ -11,7 +11,7 @@ In this project, we classify series of images into ten classes using multi-layer
 
 
 ## Data format
-We used `CIFAR-10` data set that consists of 60,000 images, each 32x32 color pixels, each belonging to one of ten classes. We used 50,000 images for traing and 10,000 for validation of our models. 
+We used `CIFAR-10` data set that consists of 60,000 images, each 32x32 color pixels, each belonging to one of ten classes. We used 50,000 images for training and 10,000 for validation of our models. 
 
 <br>
  
