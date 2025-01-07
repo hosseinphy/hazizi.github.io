@@ -53,20 +53,24 @@ projects_row2:
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
+Here’s a modified version of your introduction based on the information in your resumes:
 
-## About Me:
-I am a data professional based at Hamilton, ON. I have 10 years of professional work experience in designing high-performance algorithms and deploying advanced statistical techniques to solve problems involving extremely large data sets. 
+---
 
-As a data scientist I have hands on experience with: 
+## About Me:  
+I am a versatile data professional and machine learning expert based in Hamilton, ON, with over 10 years of experience in designing high-performance algorithms, developing AI-driven workflows, and deploying advanced statistical techniques. My expertise spans solving complex problems involving extremely large datasets and optimizing processes across industries such as materials science, energy, and manufacturing.
+
+As a **data scientist and machine learning engineer**, I bring hands-on experience with:  
 <ul>
-<li> ML algorithms & frameworks: Keras, TensorFlow, Scikit-learn</li>
-<li> Big Data tools & Cloud Computing: Spark (Ml, SQl), AWS (S3, Redshift, EMR, EC2)</li>
-<li> NLP & Sentiment Analysis</li>
-<li> Advanced statistical techniques & concepts: Random Forests, Support Vector machine, Gradient boosting, artificial neural networks, Bayesian networks, Regression, Time Series, statistical tests</li>
+<li> Machine Learning Algorithms & Frameworks**: TensorFlow, Keras, Scikit-learn, PyTorch</li> 
+<li> Big Data Tools & Cloud Computing**: Spark (ML, SQL), AWS (S3, Redshift, EMR, EC2)</li>  
+<li> NLP & Advanced Analytics**: Text mining, sentiment analysis, and time-series modeling</li>  
+<li> Statistical Techniques & Concepts**: Random Forests, Gradient Boosting, Support Vector Machines, Neural Networks (CNNs, RNNs), Bayesian Inference, Regression, Hypothesis Testing, and Time-Series Analysis</li>  
+<li> High-Performance Computing**: MPI, OpenMP, CUDA, and parallel processing</li>  
 </ul>
 
+I specialize in combining data-driven methodologies with domain expertise to deliver scalable, impactful solutions. Visit my projects [here](/archive/) to explore my work!
 
-Visit some of my selected projects [here](/archive/).
 
 <br><br>
 ## To reach out send me a message on [LinkedIn](https://www.linkedin.com/in/hossein-azizi/) or [email me](mailto:hosseinphy@gmail.com).
