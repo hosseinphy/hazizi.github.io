@@ -53,7 +53,6 @@ projects_row2:
 ---
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
-Here’s a modified version of your introduction based on the information in your resumes:
 
 ---
 
