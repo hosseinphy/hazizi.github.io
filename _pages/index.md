@@ -59,11 +59,11 @@ I am a versatile data professional and machine learning expert based in Hamilton
 
 As a **data scientist and machine learning engineer**, I bring hands-on experience with:  
 <ul>
-<li> Machine Learning Algorithms & Frameworks**: TensorFlow, Keras, Scikit-learn, PyTorch</li> 
-<li> Big Data Tools & Cloud Computing**: Spark (ML, SQL), AWS (S3, Redshift, EMR, EC2)</li>  
-<li> NLP & Advanced Analytics**: Text mining, sentiment analysis, and time-series modeling</li>  
-<li> Statistical Techniques & Concepts**: Random Forests, Gradient Boosting, Support Vector Machines, Neural Networks (CNNs, RNNs), Bayesian Inference, Regression, Hypothesis Testing, and Time-Series Analysis</li>  
-<li> High-Performance Computing**: MPI, OpenMP, CUDA, and parallel processing</li>  
+<li> Machine Learning Algorithms & Frameworks: TensorFlow, Keras, Scikit-learn, PyTorch</li> 
+<li> Big Data Tools & Cloud Computing: Spark (ML, SQL), AWS (S3, Redshift, EMR, EC2)</li>  
+<li> NLP & Advanced Analytics: Text mining, sentiment analysis, and time-series modeling</li>  
+<li> Statistical Techniques & Concepts: Random Forests, Gradient Boosting, Support Vector Machines, Neural Networks (CNNs, RNNs), Bayesian Inference, Regression, Hypothesis Testing, and Time-Series Analysis</li>  
+<li> High-Performance Computing: MPI, OpenMP, CUDA, and parallel processing</li>  
 </ul>
 
 I specialize in combining data-driven methodologies with domain expertise to deliver scalable, impactful solutions. Visit my projects [here](/archive/) to explore my work!
