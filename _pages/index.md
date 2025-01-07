@@ -54,8 +54,6 @@ projects_row2:
 
 <link rel="stylesheet" href="/assets/styles/projects.css">
 
----
-
 ## About Me:  
 I am a versatile data professional and machine learning expert based in Hamilton, ON, with over 10 years of experience in designing high-performance algorithms, developing AI-driven workflows, and deploying advanced statistical techniques. My expertise spans solving complex problems involving extremely large datasets and optimizing processes across industries such as materials science, energy, and manufacturing.
 
